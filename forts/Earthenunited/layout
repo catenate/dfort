@@ -1,0 +1,289 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb 11x11 isolate burrow drawbridge plan
+
+Each burrow decides which other burrows to trust,
+of the burrows to which it is connected.
+
+%%%%%%%%%%%%%
+%X         X%%
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           ó%%%%
+%             db
+%           %%%%%
+%o         X%
+%ó% ó ó ó ó%%
+%ó% % % % %
+%%%d%d%d%d%
+%%%b%b%b%b%
+%%% % % % %
+
+
+nb well 9x5 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+Two of these could fit in an 11x11 burrow with a walkway
+around.
+
+  +lever next to well
+  |
+  | +cistern
+  | |
+  ↓ ↓
+%%%%%%%%%
+% db  %≈%	stairs to river
+% %   %#%	grate
+% %   db%	second lever from well
+%%%%%%%%%
+ ↑
+ |
+ +bottom of primary or secondary well
+
+
+
+nb well 11x11 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+
+ +bottom of secondary well
+ |
+ |+lever next to well
+ ||
+ || +cistern
+ || |
+ ↓↓ ↓
+%%%%%%%%%%%
+% db    %X%	stairs to river: one is not enough to take 1-wide tunnel flow
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %#%	grate
+% %     db%	second lever from well, a good flood-distance away
+%%%%%%%%%%%
+ ↑
+ |
+ +bottom of primary well
+
+
+nb network military arsenal
+
+
+nb hospital soap industry
+containers for gypsum powder in bedrooms
+dedicated well (4)
+surgeon, suturer, diagnostician, bone doctor, wound dresser
+
+╔═══════════╗	Food (prepared meals only)
+║X====o====X║	Cloth (cloth and thread; except adamantine)
+║=+++θRθ+++=║	bedroom (5²)
+║=+θ+θτθ+θ+=║	surgery table (4)
+║=+++θRθ+++=║	
+║=θθθ+++θθθ=║	hospital bed (24)
+║oRτR+θ+RτRo║	traction bed (8)
+║=θθθ+++θθθ=║	
+║=+++θRθ+++=║	smoothed floor and walls
+║=+θ+θτθ+θ+=║	
+║=+++θRθ+++=║	
+║X====o====X║	Bars: Other Materials (soap)
+╚═══════════╝	Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+
+
+%%%%%%%%%%%%%	Food: Fat (tallow)
+%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
+%ppb=   bwyp%	Bars: Other Materials (ash)
+%f=== θ    f%	Lye maker
+%t===      x%	Ashery
+%=   pfl   =%	Soap maker
+%= θ === θ =%	Food: Misc. Liquid (lye)
+%=   ===   =%	Lye maker
+%=bwS   pbS=%	Soap maker’s workshop
+%=    θ ====%	Soap maker
+%=      ====%	Bars: Other Materials (soap)
+%Xpfs======X%	Bars: Other Materials (soap)
+%%%%%%%%%%%%%	Plant Extracts (rock nut oil)
+
+
+
+nb bedroom chair pile coffer cabinet statue cage animal table
+θ	bed: assigned to a dwarf working in one of the two workshops
+π	chair: 1x1 study assigned to bed owner
+÷	pile preferred drink
+Æ	coffer
+Π	cabinet
+%	pile prepared meals and preferred food
+Ω	preferred statue or animal in cage
+τ	table: 1x1 dining room assigned to bed owner
+=	pile preferred items
+
+πτ%
+÷θ=
+ΠÆΩ
+
+
+nb loom spinner clothier
+
+3x3 pile food thread
+3x3 bedroom (4)
+3x3 loom
+3x3 pile cloth
+3x3 dyer
+3x3 clothier
+3x3 crafter embroidery
+1x9 pile goods clothes (3)
+
+%%%%%%%%%%%%%	pile food dye
+%Xpgc======X%	pile goods clothes¹
+%pbwd   bwkp%	dyer’s shop
+%f    θ    g%	dyer
+%d         c%	clothier’s shop
+%=   pc=   =%	
+%= θ === θ =%	pile cloth (no adamantine)
+%=   ===   =%	clothier
+%=pct   bwo=%	pile cloth thread (no adamantine)
+%==== θ    =%	
+%====      =%	loom
+%Xpgc======X%	pile goods clothes
+%%%%%%%%%%%%%	pile goods clothes
+
+ ¹ armor, legwear, footwear; of yarn, silk, and plant cloth; no artifact
+Armor (no breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no shield; no artifact, no [raw] adamantine, only useable)
+
+
+nb inside underground farm
+
+3x3 bedrooms (4 inside)
+3x3 kitchen (1 inside; 2 outside)
+3x3 still (1 inside; 2 outside)
+farmer's workshop (1 inside; 2 outside)
+
+≈≈≈	plot
+≈≈≈
+sp=	seeds, plant, product
+
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+%X≈≈≈≈≈≈sp=X%	dimple, wheat, wheat, dimple → dye, beer, flour
+%=bwz   ≈≈≈≈%	kitchen
+%p    θ ≈≈≈≈%	grower
+%s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+%≈   bww   ≈%	cook
+%≈ θ     θ ≈%	farmer’s workshop
+%≈         ≈%	brewer
+%≈≈≈≈   bwls%	rock nut → quarry, quarry, quarry, dimple → leaves, dye, paste, oil
+%≈≈≈≈ θ    p%	thresher
+%≈sp=      =%	still
+%Xooooo╧╧╧╧X%	quern, press
+%%%%%%%%%%%%%	plump helmets, pig tails, pig tails, plump helmets
+
+
+nb barracks
+
+%%%%%%%%%%%%%	weapons
+%Xpz=======X%	ammo
+%p         p%	
+%p         d%	
+%=         =%	
+%=   ÷θ=   =%	
+%=   θθθ   =%	2 drink, 2 prepared meals
+%=   ÷θ=   =%	
+%=         =%	
+%=         =%	
+%=         =%	
+%Xpud======X%	trap components, siege ammo
+%%%%%%%%%%%%%	armor
+
+ Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
+ Ammo (no artifact, no [raw] adamantine)
+ Trap Components (); Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
+  Armor (breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
+
+
+nb metal stockpile
+
+%%%%%%%%%%%%%	silver
+%Xpb=======X%	silver
+%ppb=======p%	steel
+%bpb=======b%	steel
+%=pb========%	pig iron
+%=pb========%	pig iron
+%=pb========%	iron
+%=pb========%	iron
+%=pb========%	bronze
+%=pb========%	brass
+%=pb========%	electrum
+%Xpb=======X%	lead
+%%%%%%%%%%%%%	silver
+
+
+nb jewel stone mechanism cavern
+
+%%%%%%%%%%%%%	cut gems
+%Xpec======X%	cut gems
+%pbwj   bwjp%	jeweler’s workshop
+%e    θ    u%	jeweler
+%c         m%	jeweler’s workshop
+%=   pum   e%	jeweler
+%= θ === θ =%	encrusted mechanisms
+%=   ===   =%	mechanic
+%=bwt   bwt =%	mechanic’s workshop
+%=    θ    =%	mechanic
+%=         =%	mechanic’s workshop
+%Xpume=====X%	mechanisms
+%%%%%%%%%%%%%	mechanisms
+
+no [raw] adamantine, no artifact mechanisms
+
+
+nb magma metal bar pile smelter forge
+
+%%%%%%%%%%%%%	metal bars: silver
+%Xpb=======X%	metal bars: silver
+%ppb=======p%	metal bars: iron
+%bpb=======b%	metal bars: iron
+%=pb========%	metal bars: pig iron
+%=pb========%	metal bars: pig iron
+%=pb========%	metal bars: steel
+%=pb========%	metal bars: steel
+%=pb========%	metal bars: copper
+%=pb========% 	metal bars: copper
+%=pb========%	metal bars: copper
+%Xpb=======X%	metal bars: silver
+%%%%%%%%%%%%%	metal bars: silver
+
+%%%%%%%%%%%%%	pile armor
+%Xpf=======X%	pile furniture 
+%pbwf   bwfp%	forge furniture (eg lead coffins)
+%af  fθ w  w%	blacksmith
+%=         =%	forge weapons
+%=   pb=   =%	armorsmith
+%=aθ ===wθ =%	pile metal bars
+%=   ===   =%	weaponsmith
+%=bwf   bwf=%	forge armor
+%=a  gθ g  =%	metal crafter
+%=         =%	forge goods
+%Xpg=======X%	pile goods
+%%%%%%%%%%%%%	pile weapons
+
+%%%%%%%%%%%%%	metal bars: lead
+%Xpb=======X%	metal bars: silver
+%p         p%	furnace operator
+%b θ  θ  θ b%	furnace operator
+%=         =%	furnace operator
+%=besbesbes=%	smelter
+%=         =%	smelter
+%=         =%	smelter
+%=ps=ps=ps==%	metal bars: iron
+%===========% 	metal bars: pig iron
+%===========%	metal bars: steel
+%Xpb=======X%	pile coal bars (coke and charcoal), bituminous coal, lignite
+%%%%%%%%%%%%%	metal bars: copper
