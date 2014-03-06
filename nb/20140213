@@ -1,0 +1,48 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb trade depot
+
+Traps block trade caravan, so no cage traps around ….
+
+%%%%%%%%%%%%%
+%X         X%	
+%          ó%%≈%	close/open inner drawbridge
+%          ó%%b%	close/open outer drawbridge
+%O   O      %%d%…%%	chain a dog here
+%           db# … db
+%  O        db# … db
+%           db# … db
+%O   O      %%%%…%%	chain a dog here
+%          ó%	open/close water supply from river
+%          ó%	open/close hatches under floor grates to drain to cavern
+%X         X%	
+%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%
+%X≡========X%	mechanisms
+%≡≡==bwt   ≡%	jeweled mechanisms, mechanisms, non-economic stone
+%====    θ =%
+%====      =%
+%=≡==bwj   =%	gems
+%====    θ =%
+%====      =%
+%=≡==bwr   =%	tradecrafts (eg rock mugs)
+%====    θ =%
+%====      =%
+%X≡========X%	other craft materials (eg skulls, bone, shells)
+%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%	General store from wagons and trade
+%X1========X%	nb outlet stockpile level center
+%21==2==3==3%	
+%===========%	Plan and fill this to hold contents of wagon
+%===========%	and items traded from caravans.
+%=4==5==6===%	
+%===========%	
+%===========%	
+%=7==8==9===%	
+%===========%	
+%===========%	
+%X4========X%	
+%%%%%%%%%%%%%	
