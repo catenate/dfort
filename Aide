@@ -1,7 +1,8 @@
 $ import -display :0.0 255-4.jpg
+$ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
 /n/local/home/jdc/df3411/raw/objects/language_DWARF.txt
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Import Earthenunited.'
+git commit -a -m 'Halve the size of the layout picture.'
 mkdir nb
