@@ -4,5 +4,5 @@ $ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Halve the size of the layout picture.'
+git commit -a -m 'More battles in cavern.  Got doctor to start diagnosing, started medical journal.'
 mkdir nb

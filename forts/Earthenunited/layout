@@ -287,3 +287,20 @@ nb magma metal bar pile smelter forge
 %===========%	metal bars: steel
 %Xpb=======X%	pile coal bars (coke and charcoal), bituminous coal, lignite
 %%%%%%%%%%%%%	metal bars: copper
+
+
+nb cavern tree log plant process
+
+%%%%%%%%%%%%%	wood furniture
+%X         X%	wooden crossbows
+% bwc   bwb %	carpenter’s workshop (barrels)
+%     θ     %	bowyer
+%           %	bowyer’s workshop
+%           %	carpenter
+%  θ     θ  %	barrels
+%           %	brewer
+% bew       %	wood furnace
+%     θ     %	wood burner
+%           %	still
+%X         X%	drink
+%%%%%%%%%%%%%	drink

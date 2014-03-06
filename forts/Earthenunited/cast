@@ -74,7 +74,7 @@
 	Vabôk Bittenmirrors, cook.  Milker, cook, beekeeper.  E3M4.
 	Likot Charmedplank, beekeeper.  Beekeeper, miller, thresher, grower.  E3M4.
 #	Aban Merchantblockades, dead.  Macedwarf, dodger, shield, armor.  Mechanic, brewer, cheese maker, milker.  E3M4.
-	Degël Pulledtrade, bone doctor.  Marksdwarf, tracker, dodger, shield, armor. Bone doctor, wound dresser, animal trainer, animal caretaker, animal dissector.  E3M4.
+	Degël Pulledtrade, bone doctor.  Marksdwarf, dodger, shield, armor, tracker. Bone doctor, wound dresser, animal trainer, animal caretaker, animal dissector.  E3M4.
 	Momuz Archblankets, miner.  Miner, fisherdwarf, fish cleaner, fish dissector.  E3M5.
 	Udil Copperboars, craftsdwarf.  Weaver, glassmaker, potter, fisherdwarf, fish cleaner, fish dissector.  E3M5.
 	Litast Trustedbolted, clothier, broker.  Marksdwarf, ambusher, dodger.  Animal trainer, animal dissector, trapper.  E3M5.
@@ -92,31 +92,31 @@
 	Domas Shadowsabre, baby.  BORN.
 	Ònul Channeledflicker, baby.  BORN.
 	Dastot Blotdoor, baby.  BORN.
-	Lòr Earthstrike, bowyer.  Marksdwarf, tracker, ambusher, dodger, shield, armor.  Bowyer, animal caretaker, animal dissector, E3M6.
+	Lòr Earthstrike, bowyer.  Marksdwarf, ambusher, dodger, shield, armor, tracker.  Bowyer, animal caretaker, animal dissector, E3M6.
 	Atír Lakegranite, wood cutter.  Wood cutter.  E3M6.
 	Urdim Merchantunites, animal dissector.  Animal dissector, miner, brewer, grower, herbalist, dyer.  E3M6.
 	Imush Bannershafts, armorer.  Armorsmith, butcher, herbalist, spinner.  E3M6.
 	Dumat Obeyedpaint, jeweler.  Gem cutter, gem setter, weaponsmith,   E3M6.
 	Meng Tradeglee, gem setter.  Gem setter.  E3M6.
 	Datan Steelwheel, gem setter.  Gem setter, milker, presser, cheese maker.  E3M6.
-	Medtob Slingchant, soldier, craftsdwarf.  Axedwarf, tracker, dodger, shield, armor.  Clothier, strand extractor.  E3M6.
-#	Urvad Pastlanced, killed by the cave crocodile Earbattle.  Swordsdwarf, tracker, dodger, shield, armor.  Clothier, miller, shearer, presser.  E3M6.
-#	Athel Bellmansion, killed by the cave crocodile Earbattle.  Swordsdwarf, tracker, dodger, shield, armor.  Wax worker, mason, engraver.  E3M6.
+	Medtob Slingchant, soldier, craftsdwarf.  Axedwarf, dodger, shield, armor, tracker.  Clothier, strand extractor.  E3M6.
+#	Urvad Pastlanced, killed by the cave crocodile Earbattle.  Swordsdwarf, dodger, shield, armor, tracker.  Clothier, miller, shearer, presser.  E3M6.
+#	Athel Bellmansion, killed by the cave crocodile Earbattle.  Swordsdwarf, dodger, shield, armor, tracker.  Wax worker, mason, engraver.  E3M6.
 	Atîs Workpuzzles, wax worker.  Wax worker.  E3M6.
 	Kûbuk Boltedpool, fishery worker.  Fisherdwarf, fish cleaner, fish dissector, grower, dyer, cheesemaker.  E3M6.
 	Nish Tinwilted, fish dissector.  Fish dissector.  E3M6.
 	Urist Crystallegends, farmer.  Thresher, milker, cook.  E3M6.
 	Kulet Gearworked, farmer.  Thresher, grower, shearer.  E3M6.
-	Zuglar Rockchucked, soldier, farmer.  Macedwarf, tracker, dodger, shield, armor.  Thresher, herbalist, dyer.  E3M6.
+	Zuglar Rockchucked, soldier, farmer.  Macedwarf, dodger, shield, armor, tracker.  Thresher, herbalist, dyer.  E3M6.
 	Èrith Whimshelms, farmer.  Herbalist, dyer, presser.  E3M6.
 	Kadôl Coppersteels, archer, farmer.  Marksdwarf, dodger, shield, armor.  Brewer, milker, presser.  E3M6.
-	Fikod Helmcrazy, swordsdwarf captain, beekeeper.  Swordsdwarf, tracker, dodger, wrestler, striker, kicker, shield, armor.  Beekeeper, herbalist.  E3M6.
+	Fikod Helmcrazy, swordsdwarf captain, beekeeper.  Swordsdwarf dodger, wrestler, striker, kicker, shield, armor, tracker,.  Beekeeper, herbalist.  E3M6.
 	Dumat Beachkeys, butcher.  Butcher, gem cutter.  E3M6.
 	Alåth Copperscribes, lye maker.  Lye maker, strand extractor, thresher, herbalist, spinner.  E3M6.
 	Urist Whipdiamonds, lye maker.  Lye maker, fisherdwarf, fish cleaner, fish dissector.  E3M6.
 	Kûbuk Canyontomes, milker.  Milker, thresher.  E3M6.
 	Èrith Wheelcrafted, shearer.  Shearer.  E3M6.
-	Zaneg Gemroared, soldier, tanner.  Hammerdwarf, tracker, dodger, shield, armor.  Tanner, furnace operator, presser.  E3M6.
+	Zaneg Gemroared, soldier, tanner.  Hammerdwarf, dodger, shield, armor, tracker.  Tanner, furnace operator, presser.  E3M6.
 	Zas Clearedpaddles, archer, mechanic.  Marksdwarf, dodger.  Mechanic, cook, spinner, presser, trapper, animal trainer, animal caretaker.  E3M6.
 	Zuglar Cryptthunder, mechanic.  Mechanic, fisherdwarf, fish cleaner, fish dissector.  E3M6.
 	Èzum Cityentries, siege engineer.  Siege engineer, butcher, leatherworker.  E3M6.
@@ -126,3 +126,14 @@
 	Kulet Walledsandaled, baby.  BORN.
 	Mestthos Overtrumpet, baby.  BORN.
 	Unib Windyposts, baby.  BORN.
+	Zasit Scholarboats, ranger.  Marksdwarf, ambusher, dodger.  Animal trainer, animal caretaker.  E3M7.
+	Deler Scratchfloor, animal dissector.  Animal dissection, gem cutter, gem setter.  E3M7.
+	Id Boundbolted, animal dissector.  Marksdwarf, dodger.  Animal dissector, animal caretaker, trapper.  E3M7.
+	Bëmbul Trussedink, speardwarf, weaponsmith.  Speardwarf, dodger, shield, armor, tracker.  Weaponsmith, miller, cheesemaker, milker.  E3M7.
+	Ral Manorhush, leatherworker.  Leatherworker, herbalist, cook, milker, presser.  E3M7.
+	Bim Foldedquake, fishery worker.  Fisherdwarf, fish cleaner.  E3M7.
+	Asmel Crossbells, fishery worker.  Fisherdwarf, fish cleaner, fish dissector.  E3M7.
+	Rigoth Guildrazors, fish cleaner.  Fish cleaner, presser.  E3M7.
+	Mebzuth Lancersplashes, farmer.  Butcher, thresher, beekeeper.  E3M7.
+	Geshud Hatchetceiling, potash maker.  Potash maker, glassmaker.  E3M7.
+	Rigòth Idolblockades, tanner.  Tanner.  E3M7.
