@@ -5,6 +5,7 @@ nb 11x11 isolate burrow drawbridge plan
 
 Each burrow decides which other burrows to trust,
 of the burrows to which it is connected.
+Name burrows after the mined-out veins which lead to them.
 
 %%%%%%%%%%%%%
 %X         X%%

@@ -4,5 +4,7 @@ $ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'More battles in cavern.  Got doctor to start diagnosing, started medical journal.'
+git commit -a -m 'minor edits'
+git diff
+git rebase origin/master
 mkdir nb
