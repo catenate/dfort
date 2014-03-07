@@ -292,16 +292,16 @@ nb magma metal bar pile smelter forge
 
 nb cavern tree log plant process
 
-%%%%%%%%%%%%%	wood furniture
-%X         X%	wooden crossbows
-% bwc   bwb %	carpenter’s workshop (barrels)
-%     θ     %	bowyer
-%           %	bowyer’s workshop
-%           %	carpenter
-%  θ     θ  %	barrels
-%           %	brewer
-% bew       %	wood furnace
-%     θ     %	wood burner
-%           %	still
-%X         X%	drink
+%%%%%%%%%%%%%	wood furniture (no artifacts)
+%Xppxw=====X%	wooden crossbows (no artifacts)
+%pbwc   bwbp%	carpenter’s workshop (barrels)
+%u    θ    f%	bowyer
+%w         d%	bowyer’s workshop
+%=   pfb   =%	carpenter
+%= θ === θ =%	barrels (no artifacts)
+%=   ===   =%	brewer
+%=bew   bwl=%	wood furnace
+%=    θ    =%	wood burner
+%=         =%	still
+%Xpfd======X%	drink
 %%%%%%%%%%%%%	drink

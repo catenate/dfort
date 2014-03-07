@@ -4,7 +4,7 @@ $ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'minor edits'
+git commit -a -m 'Name military dwarves according to theme of kills.  Set up and isolate plant/drink pile and still in cavern.'
 git diff
 git rebase origin/master
 mkdir nb
