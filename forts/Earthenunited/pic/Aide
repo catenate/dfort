@@ -1,0 +1,4 @@
+$ import -display :0.0 255-4.jpg
+$ import -display :0.0 255-4-talryth.jpg
+$ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
+$ convert 255-4-talryth.jpg +clone -resize 50% 255-4-talryth-half.jpg

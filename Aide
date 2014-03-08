@@ -1,10 +1,11 @@
-$ import -display :0.0 255-4.jpg
 $ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
+$ import -display :0.0 255-4.jpg
+/n/local/home/jdc/df3411/data/init/init.txt
 /n/local/home/jdc/df3411/raw/objects/language_DWARF.txt
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Name military dwarves according to theme of kills.  Set up and isolate plant/drink pile and still in cavern.'
+git commit -a -m 'Try out Talryth’s tileset.'
 git diff
 git rebase origin/master
 mkdir nb
