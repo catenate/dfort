@@ -5,7 +5,7 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Try out Talryth’s tileset.'
+git commit -a -m 'Add engineer and manager diaries.  One quarter-year of elapsed time, including one trade, and reclaiming hospital burrow.'
 git diff
 git rebase origin/master
 mkdir nb
