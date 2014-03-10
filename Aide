@@ -7,5 +7,6 @@ git
 git add .
 git commit -a -m 'Plan the goblin tosser, and digest a migrant wave.'
 git diff
+git fetch
 git rebase origin/master
 mkdir nb

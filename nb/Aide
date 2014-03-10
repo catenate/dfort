@@ -1,0 +1,2 @@
+Edit ,|sort|uniq
+nbnow=`{nbnow}; touch $nbnow; plumb $nbnow

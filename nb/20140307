@@ -1,23 +1,6 @@
-aban avuzsazirmafol tunur … kib saziradilÿton kezkïg ugoshódkelid
-shatagistrath … kirondatanavuz ustosteshkad angngotololum
-―Bomonolthÿkut fragments
+nb dwarf direction sense
 
-home-mountain book
-
-build mine-bridge-chamber style
-net bridge-wall-hall connect hollow-tunnel-metal-rock jewel-cluster
-holy-iron-mine anger-price red-ghost-disperse
-
-We build in mine, bridge, chamber tradition.  A network of [draw?]
-bridge-walled halls connected by tunnels of ore and jewel clusters.
-The hallowed hematite vein is the toll of (our) angers, where we lay
-to rest our angry undead.
-
-
-Burrow addresses in the mine-bridge-chamber style,
-an essay by a human scholar of dwarven archæology:
-
-“Dwarves speak of location relative to gates, entry points, the first
+Dwarves speak of location relative to gates, entry points, the first
 space where an area was entered, which provide passage back to the
 place they were before.  For a fortress, the first gate is the place
 near where the wagon stopped, where they first struck the earth.
@@ -25,38 +8,66 @@ For a level of the fortress, the level gate is the location of the
 first stairway down or up to the level, or the entry point first
 carved from outside.  In avuzsazirmafol, they further name their
 burrows by the ore of the vein that leads to a frame/chamber/burrow,
-since to dwarves every mineral, and especially metal, has a strong
-and distinct feel, appearance, smell, taste, and sound when struck.
-If there are more than one vein of the same economic stone, or if the
-level is completely composed of it (eg, marble by caverns) then they
-distinguish them by relative direction to or from the mountainhome,
-and left or right from the path towards the mountainhome.
+since every mineral, and especially metals, have strong and distinct
+appearances, smells, and tastes to dwarves.  If there are more than
+one vein of the same economic stone, or if the level is completely
+composed of it (eg, marble by caverns) then they distinguish them by
+relative direction to or from the mountainhome, and left or right from
+the path towards the mountainhome.
 
 So an address inside the fortress is composed of the level of the
 fortress down from the first gate, the name of the vein that leads to
 the frame/chamber/burrow, and (if necessary) a direction to
 distinguish it from another, similar vein.  Since the human overseer
 doesn’t have the same sense of direction, he uses north as “home”,
-towards the mountainhome; south as “away”; west as “left” and
-east as “right” from that axis.  For long passages through many veins,
+towards the mountainhome; south as “away”; and left as “left” and
+right as“right” from that axis.  For long passages through many veins,
 replace as many directions as possible with a list of the veins in series.
 
-For example, in this picture of the 4th level of Earthenunited, the
-address of the barracks along the upper hematite vein is “4 hematite-
+For example, in this picture of the 4th level of Earthenunited,ⁱ the
+address of the barracks along the upper hematite vein is “4 hematite
 home” (4 hem^), or 4 Hematite North, as we would say.  Proceeding
 clockwise: The future frame to the upper right will have the address
 “4 galena-right” (4 gal>), or 4 Galena Northeast.  The artifact chamber
 is just “4” (4), since it is hard by the gate with no vein between.
 The future frame to the lower right will be “4 microcline” (4 mic).
-The frame below and slightly left is “4 hematite-away” (4 hemv).
+The frame below and slightly left is “4 hematite away” (4 hemv).
 The hospital’s address is “4 copper” (4 cop).  The chamber between
 them, part of a burrow that starts upstairs, does not have an address
 on this level, since it is not accessible.  Clockwise, the future frames
 to the upper left will be “4 galena-left left” (4 gal< <) and “4 galena-
 left home” (4 gal< ^ in note-shorthand.)
+ ⁱ web https://github.com/catenate/dfort/blob/master/forts/Earthenunited/pic/255-4.jpg
 
 To get from the lower-right future frame to the upper-left leftmost
 future frame, the directions would be “microcline galena-left left”
 (mic gal< <).  To get up to the outside farm would be “microcline
 galena hematite-home 3” (mic gal hem^ 3), to find and use the stairs
-to the third level past the hematite vein.”
+to the third level past the hematite vein.
+
+
+nb economic stone abbrev
+
+raw ADAmantine goes in the vault
+
+iron ores and flux stone (no blocks, reserved economic stone):
+HEMatite, LIMonite, MAGnetite; LIMEstone, DOLomite, CHAlk, MARble, CALcite
+
+other armor and weapon ores (bismuth bronze, bronze, copper, silver):
+SILver/COPper nuggets, MALachite, GALena, TETrahedrite, HORN silver; OBSidian
+
+alloy ores: GARnierite, GOLD nuggets, SPHalerite, CASsiterite, BISmuthinite
+
+fuel: bituminous COAL, LIGnite.
+
+rough gems and glass: by first three letters of name.
+
+plaster: GYPsum, ALAbaster, SELenite, SATinspar.
+
+sand bags and clay: by first three letters of color of sand:
+YELlow, WHIte, BLAck, RED, TAN.
+
+2x magma-safe stone: SANdstone, CHErt, GABbro, BASalt, OBSidian,
+QUArtzite, TALC, petrified WOOD, PERiclase, ILMenite, RUTile,
+CHRomite, PITchblende, BAUxite, OLIvine, KAOlinite, ORThoclase, MICA,
+ANHydrite, ALUnite
