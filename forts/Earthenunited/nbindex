@@ -7,16 +7,22 @@ embark:60: third embark wagon
 embark:82: third embark farm pile
 embark:90: third embark general pile
 layout:4: 11x11 isolate burrow drawbridge plan
-layout:28: well 9x5 cistern river drawbridge plan
-layout:51: well 11x11 cistern river drawbridge plan
-layout:79: network military arsenal
-layout:82: hospital soap industry
-layout:118: bedroom chair pile coffer cabinet statue cage animal table
-layout:134: loom spinner clothier
-layout:163: inside underground farm
-layout:189: barracks
-layout:211: metal stockpile
-layout:228: jewel stone mechanism cavern
+layout:29: well 9x5 cistern river drawbridge plan
+layout:52: well 11x11 cistern river drawbridge plan
+layout:80: network military arsenal
+layout:83: hospital soap industry
+layout:119: dining room chair table store food well middle
+layout:138: bedroom chair pile coffer cabinet statue cage animal table
+layout:154: loom spinner clothier
+layout:183: inside underground farm
+layout:211: barracks
+layout:233: metal stockpile
+layout:250: jewel stone mechanism cavern
+layout:269: magma metal bar pile smelter forge
+layout:314: cavern tree log plant process
+layout:331: toss throw slam goblin tumble drawbridge siege defense
+layout:365: raw adamantite extract strand smelter furnace forge
+layout:393: magma kiln
 order:1: embark done order
 order:19: 251 spring done order
 order:22: doing once order

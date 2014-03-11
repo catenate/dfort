@@ -360,3 +360,35 @@ or cleaning and resetting traps.
 %%%%%%%%%%%%%%%%%%%%%%%%%%
                      %óóóó
                      %%%%%
+
+
+nb raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
+
+_	channel to magma sea under (one) impassible tile
+
+%%%%%%%%%%%%%	pile adamantine weapons
+%Xpda======X%	pile adamantine armor
+%pbwr   phtp%	craftsdwarf’s workshop (extract strand)
+%p    θ m==p%	best strand extractor
+%a      ===a%	pile adamantine strands (from bwr)
+%=    _    =%	best furnace operator
+%= θ bel θ =%	magma smelter (make adamantine wafers)
+%=         =%	best armorer
+%=pbm   bwv=%	pile adamantine wafers
+%=a== θ _ _=%	best weaponsmith
+%====      =%	magma forge (edged weapons, mail/breastplate, helm)
+%Xpda======X%	pile adamantine armor
+%%%%%%%%%%%%%	pile adamantine weapons
+
+
+nb networks
+
+First stair: first set of chambers and the first staircase from top
+to bottom.
+
+Defense: barracks, weapon and armor producers, defensive works,
+hospital.
+
+Food: farms, outside, caverns.
+
+Stone: mines, masons, mechanics, stonecrafters, jewelers.
