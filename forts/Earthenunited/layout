@@ -402,3 +402,7 @@ for a lot of traffic.
 In the most disconnected case, every chamber has a unique connection
 to each other it directly needs.  One drawbridge per chamber connected,
 have to dig separate tunnel for each pair of chambers connected.
+Can accommodate the shortest path between two chambers.
+
+A middle approach is to reuse existing paths of the network wherever
+possible.  Mining and pathing cost vs.  extra travel distance.
