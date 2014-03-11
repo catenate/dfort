@@ -5,8 +5,9 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Plan the goblin tosser, and digest a migrant wave.'
+git commit -a -m 'Further plan the goblin tosser.'
 git diff
 git fetch
+git push origin master
 git rebase origin/master
 mkdir nb
