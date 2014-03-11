@@ -381,7 +381,7 @@ _	channel to magma sea under (one) impassible tile
 %%%%%%%%%%%%%	pile adamantine weapons
 
 
-nb networks
+nb network
 
 First stair: first set of chambers and the first staircase from top
 to bottom.
@@ -392,3 +392,13 @@ hospital.
 Food: farms, outside, caverns.
 
 Stone: mines, masons, mechanics, stonecrafters, jewelers.
+
+Each network has an entire level devoted to its interconnections, so
+in the most centralized case, each chamber sends a path to the inter-
+connect level, and this level takes care of tying them all together.
+One drawbridge per network connected, interconnects can be widened
+for a lot of traffic.
+
+In the most disconnected case, every chamber has a unique connection
+to each other it directly needs.  One drawbridge per chamber connected,
+have to dig separate tunnel for each pair of chambers connected.

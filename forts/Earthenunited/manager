@@ -219,3 +219,17 @@ Sandstone.  Migrants: miner, woodworker, bowyer, animal trainer,
 stonecrafter, weaver, presser, bone doctor (good for active military),
 a child and a baby.
 
+Record as profession the job each dwarf is most supposed to be doing,
+or the labor category for all of them.  This will help see where there
+are categories of work missing from the overall assignments, and high-
+light differences in jobs actually done.
+	miner
+	stoneworker: mason, stone detailer
+	ranger: hunter, animal caretaker, animal dissector
+	jeweler: gemcutter, gemsetter
+	crafter: strand extractor, tradecrafter, stonecrafter, woodcrafter, bonecrafter
+	kingfisher: fisher, fish cleaner, fish dissector
+	farmer: grower, thresher, presser
+	clothier: spinner, dyer, weaver
+	soldier: commander [0-9]+[RM], captain [0-9]+[RM], axedwarf, hammerdwarf, macedwarf, speardwarf, swordsdwarf, wrestler, marksdwarf
+	admin professions already take precedence
