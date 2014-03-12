@@ -5,7 +5,7 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'More notes on chamber networks.'
+git commit -a -m 'Siege of the undead.'
 git diff
 git fetch
 git push origin master
