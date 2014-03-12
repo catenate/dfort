@@ -5,7 +5,7 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Half-size siege picture.'
+git commit -a -m 'Analysis of fortress design after disastrous seige.  In a nutshell, the opening to the surface and central staircase suck, though it was fun to see the FB take on the undead, and should be a feature of future designs.'
 git diff
 git fetch
 git push origin master

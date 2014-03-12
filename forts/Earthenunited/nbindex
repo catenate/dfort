@@ -14,15 +14,15 @@ layout:83: hospital soap industry
 layout:119: dining room chair table store food well middle
 layout:138: bedroom chair pile coffer cabinet statue cage animal table
 layout:154: loom spinner clothier
-layout:183: inside underground farm
+layout:183: start4 inside underground farm
 layout:211: barracks
 layout:233: metal stockpile
 layout:250: jewel stone mechanism cavern
 layout:269: magma metal bar pile smelter forge
 layout:314: cavern tree log plant process
 layout:331: toss throw slam goblin tumble drawbridge siege defense
-layout:365: raw adamantite extract strand smelter furnace forge
-layout:393: magma kiln
+layout:365: raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
+layout:384: network
 order:1: embark done order
 order:19: 251 spring done order
 order:22: doing once order
@@ -31,5 +31,6 @@ order:28: doing ongoing order
 order:31: todo order
 shelter:4: embark shelter underground soil layout food trade store stockpile general stonedwarf mechanic mason miner metalworker
 shelter:15: farm food drink carpenter furniture trade depot
-shelter:44: outlet stockpile food drink hospital supply defense
-shelter:75: miner mason mechanic bedroom workshop stonedwarf
+shelter:44: start2 storeroom outlet stockpile food drink supply
+shelter:77: start5 miner mason mechanic workshop stonedwarf
+shelter:97: start3 prepared food dormitory hospital dining room

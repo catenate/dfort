@@ -41,7 +41,9 @@ quarry bush, quarry bush, quarry bush, dimple cups
 Animal empty cages and animal traps, Wood furniture (bed, bin, minecart, wheelbarrow; no artifact, no [raw] adamantine)
 
 
-nb outlet stockpile food drink hospital supply defense
+nb start2 storeroom outlet stockpile food drink supply
+
+This storeroom allows a fortress to be built or reclaimed.
 
 %%%%%%%%%%%%%	
 %Xpz=======X%	
@@ -57,36 +59,57 @@ nb outlet stockpile food drink hospital supply defense
 %Xpl=======X%	
 %%%%%%%%%%%%%	
 
- 1 Seeds, no prepared food
- 2 edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine), no prepared food
- 3 Drinks (plant and animal), no prepared food
- 4 Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks)
- 5 Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
- 6 only prepared food
- 7 Animals, empty cages, empty animal traps
- 8 Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
- 9 Cloth and thread (except adamantine)
- ¹ Ammo (no artifact, no [raw] adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
- ² Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
- ³ Armor (no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
- ⁴ Leather, Refuse (tanned hides)
+	pfs: Seeds, no prepared food
+	pfp: edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine), no prepared food
+	pfd: Drinks (plant and animal), no prepared food
+	pf: Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks)
+	pf: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
+	pfu: only prepared meals
+	pa: Animals, empty cages, empty animal traps
+	pb: Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+	ph: Cloth and thread (except adamantine)
+	pz: Ammo (no artifact, no [raw] adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
+	pp: Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
+	pd: Armor (no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
+	pl: Leather, Refuse (tanned hides)
 
 
-nb miner mason mechanic bedroom workshop stonedwarf
+nb start5 miner mason mechanic workshop stonedwarf
 
-%%%%%%%%%%%%%
-%X_pe======X%	cut gems
-%pbwjbwmbwtp%	no sand bags
+%%%%%%%%%%%%%	
+%Xpe=======X%	
+%pbwjbwmbwtp%	
 %g         u%	
-%=         t%
-%=bwrθθθbew=%
-%=   θ8θ   =%	dormitory
-%=   θθθ   =%
-%=bwfpb=bes=%	coal and ash bars
+%=         =%
+%=bwrpbcbew=%
 %=   ===   =%	
 %=   ===   =%
-%Xpb=======X%	metal bars
+%=bwfpbmbes=%	
+%=   ===   =%	
+%=   ===   =%	
+%Xpbm======X%	
 %%%%%%%%%%%%%
 
 stone and metal items
 no artifact, no [raw] adamantine
+
+
+nb start3 prepared food dormitory hospital dining room
+
+This living area provides for basic needs while the fortress is
+set up or under seige.
+
+%%%%%%%%%%%%%
+%Xpfd======X%	
+%pθθθττττττp%	dorm 1
+%fθ8θππππππf%	dining
+%uθθθπππΠππu%	
+%=θθθττττττ=%	dorm 2
+%=θ8θττττττ=%	
+%=θθθππππππ=%	
+%=θÆθpfd====%	hospital
+%=θΤθpfu====%	
+%=θRθpfd====%	
+%Xpfd======X%	
+%%%o%%%%%%%%%	well for mini-hospital
+  %%%
