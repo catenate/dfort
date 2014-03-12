@@ -11,4 +11,4 @@ git fetch
 git push origin master
 git rebase origin/master
 mkdir nb
-
+nsh git diff

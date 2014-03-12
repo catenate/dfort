@@ -2,7 +2,7 @@
 #	 Edit ,>grep -v '#' | grep E3 | wc -l
 #	 Edit ,>grep -v '#' | grep E3M5 | wc -l
 #	 Edit ,>grep -v '#' | grep -i marksdwarf | grep E3M5
-#	 Edit ,>grep -v '#' | grep -i baby | wc -l
+#	 Edit ,>grep -v '#' | grep -i brewer | wc -l
 #	 Edit ,>grep -v '#' | grep -i wood | grep -i cutter
 #	 Edit ,>grep -v '#' | wc -l
 #	 Edit ,>grep -v '#' | sort
@@ -126,12 +126,12 @@
 #	Kulet Walledsandaled, missing.  BORN.
 	Mestthos Overtrumpet, baby.  BORN.
 	Unib Windyposts, baby.  BORN.
-	Zasit Scholarboats, ranger.  Marksdwarf, ambusher, dodger.  Animal trainer, animal caretaker.  E3M7.
+#	Zasit Scholarboats, bit to death by a giant cave spider.  Marksdwarf, ambusher, dodger.  Animal trainer, animal caretaker.  E3M7.
 	Deler Scratchfloor, animal dissector.  Animal dissection, gem cutter, gem setter.  E3M7.
 	Id Boundbolted, animal dissector.  Marksdwarf, dodger.  Animal dissector, animal caretaker, trapper.  E3M7.
 	Bëmbul Trussedink, speardwarf, weaponsmith.  Speardwarf, dodger, shield, armor, tracker.  Weaponsmith, miller, cheesemaker, milker.  E3M7.
 	Ral Manorhush, leatherworker.  Leatherworker, herbalist, cook, milker, presser.  E3M7.
-	Bim Foldedquake, fishery worker.  Fisherdwarf, fish cleaner.  E3M7.
+#	Bim Foldedquake, killed by werelizard.  Fisherdwarf, fish cleaner.  E3M7.
 	Asmel Crossbells, fishery worker.  Fisherdwarf, fish cleaner, fish dissector.  E3M7.
 	Rigòth Guildrazors, fish cleaner.  Fish cleaner, presser.  E3M7.
 	Mebzuth Lancersplashes, farmer.  Butcher, thresher, beekeeper.  E3M7.
@@ -145,10 +145,11 @@
 	Udib Palaceclasped, animal trainer.  Animal trainer, carpenter.  E3M8.
 	Ingish Standardowns, blacksmith.  Metalsmith, herbalist, milker, cheesemaker.  E3M8.
 	Cilob Wheeledsubtle, blacksmith.  Metalsmith, grower, cook, beekeeper, spinner.  E3M8.
-	Ïngiz Dentlances, blacksmith.  Marksdwarf, dodger, shield, armor, trapper, tracker.  Metalsmith, animal caretaker, animal dissector, tanner, miller, thresher.  E3M8.
+#	Ïngiz Dentlances, bit to death by a giant cave spider.  Marksdwarf, dodger, shield, armor, trapper, tracker.  Metalsmith, animal caretaker, animal dissector, tanner, miller, thresher.  E3M8.
 	Momom Youthhames, stonecrafter.  Stonecrafter.  E3M8.
 	Kûbuk Boltedbridged, weaver.  Weaver, milker, beekeeper, presser.  E3M8.
 	Ingish Muscledikes, militia, presser.  Swordsdwarf, dodger, shield, armor, tracker.  Presser, stone crafter, herbalist.  E3M8.
 	Avuz Stilledcave, bone doctor.  Bone doctor, wound dresser, fisherdwarf, fish cleaner, fish dissector.  E3M8.
 	Medtob Footrock, child.  E3M8.
 	Nomal Castledrum, baby.  E3M8.
+	Tekkud Manorthinned, baby.  BORN.
