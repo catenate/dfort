@@ -1,2 +1,2 @@
 Edit ,|sort|uniq
-nbnow=`{nbnow}; touch $nbnow; plumb $nbnow
+nbnow=`{nbnow | sed 's,\..*,,'}; touch $nbnow; plumb $nbnow
