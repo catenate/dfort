@@ -5,10 +5,11 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Layout map and ringwoodite.'
+git commit -a -m 'Add link to raws.'
 git diff
 git fetch
 git push origin master
 git rebase origin/master
 mkdir nb
 nsh git diff
+web https://github.com/quietust/DFRawFunctions/tree/master/raws/DF2012
