@@ -230,23 +230,6 @@ nb barracks
   Armor (breastplates, mail shirts, armor; helms, caps; high boots, low boots; gauntlets, gloves; greaves, leggings; no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
 
 
-nb metal stockpile
-
-%%%%%%%%%%%%%	silver
-%Xpb=======X%	silver
-%ppb=======p%	steel
-%bpb=======b%	steel
-%=pb========%	pig iron
-%=pb========%	pig iron
-%=pb========%	iron
-%=pb========%	iron
-%=pb========%	bronze
-%=pb========%	brass
-%=pb========%	electrum
-%Xpb=======X%	lead
-%%%%%%%%%%%%%	silver
-
-
 nb jewel stone mechanism cavern
 
 %%%%%%%%%%%%%	cut gems
@@ -444,3 +427,74 @@ drawbridges.
    ó3θ+-*     *--+5ℒ+-***
     X|
 ≈#+≈+≈
+
+
+Pasture can be larger and unwalled, the animals were largely
+unaffected by the seige.
+
+Spread-out nuclei of burrows, and extra levels.  Three-part name of
+burrow: first name of primary dwarf who founded the burrow; purpose of
+burrow; word for chamber (mafol, usually ommitted).  Each burrow can
+also have lower levels for stockpiles of items which overflow their
+production areas.
+	Sunshine burrow (${carpenter}ad): fishery by river; carpenter/
+wood burner/bowyer; walled outside butcher/tanner/leatherworker;
+kennel by pastures?
+	Tradecrafter burrow (${broker}nish): Trade depot and barracks;
+workshops and piles for desired trade items.
+	Shelter burrow (${doctor}ekast): Wagon piles (seed, food, drink,
+weapons, armor); starting 7+2 dedicated beds, 9-bed dorm, mini-hospital,
+dining room and meeting hall, food/drink; hospital.
+	Farm burrow (${brewer}ivom): inside; walled outside; irrigated inside.
+	Stone burrow (${mechanic}lam).
+	Metal burrow (${weaponsmith}kel); bar stockpile.
+	Social burrow (${mayor}rethal): dining room and meeting hall;
+pile prepared meals; statuary; zoo.
+
+
+nb stone burrow
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stone crafts
+%pbwr   bwtp%	stonecraft workshop
+%e    θ    f%	mechanic
+%c         m%	mechanic’s workshop
+%=   pus   =%	metal crafter
+%= θ === θ =%	metal bars pile
+%=   ===   =%	mason
+%=bwj   bwm=%	jeweler’s workshop
+%=    θ    =%	jeweler
+%=         =%	mason’s workshop
+%Xpus======X%	stone furniture pile
+%%%%%%%%%%%%%	mechanisms
+
+
+nb metal burrow bar stockpile
+
+%%%%%%%%%%%%%	metal crafts
+%Xpbc======X%	charcoal pile
+%pbwr   besp%	metalcraft workshop
+%g    θ    p%	furnace operator
+%m         m%	smelter
+%=   pbm   =%	metal crafter
+%= θ === θ =%	metal bars pile
+%=   ===   =%	weaponsmith
+%=bwf   bwf=%	armor forge
+%=p   θ d  =%	armorer
+%=         =%	weapon forge
+%Xpdm======X%	metal armor
+%%%%%%%%%%%%%	metal weapons
+
+%%%%%%%%%%%%%	silver
+%Xpb=======X%	silver
+%ppb=======p%	iron
+%bpb=======b%	iron
+%=pb========%	pig iron
+%=pb========%	pig iron
+%=pb========%	steel
+%=pb========%	steel
+%=pb========%	bronze
+%=pb========%	brass
+%=pb========%	electrum
+%Xpb=======X%	lead
+%%%%%%%%%%%%%	silver
