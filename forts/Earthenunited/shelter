@@ -99,17 +99,17 @@ nb start3 prepared food dormitory hospital dining room
 This living area provides for basic needs while the fortress is
 set up or under seige.
 
-%%%%%%%%%%%%%
-%Xpfd======X%	
-%pθθθττττττp%	claimed beds: starting 7
-%fθ8θππππππf%	dining
-%uθθθπππΠππu%	
+%%%%%%%%%%%%%	prepared meals
+%Xpfd======X%	drink
+%pθθθττττττp%	claimed beds: starting 7+2
+%fθ8θππππππf%	
+%uθθθπππΠππu%	dining room and meeting hall
 %=θθθττττττ=%	dormitory
 %=θ8θττττττ=%	
 %=θθθππππππ=%	
-%=θÆθpfd====%	hospital
-%=θΤθpfu====%	
-%=θRθpfd====%	
-%Xpfd======X%	
-%%%o%%%%%%%%%	well for mini-hospital
-  %%%
+%=θÆθpfdpfu=%	mini-hospital
+%=θΤθ=======%	drink
+%=θRθ=======%	prepared meals
+%Xpfd======X%	drink
+%%%o%%%%%%%%%	prepared meals
+  %%%        	well for mini-hospital
