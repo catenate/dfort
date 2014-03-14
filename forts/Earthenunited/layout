@@ -436,19 +436,19 @@ Spread-out nuclei of burrows, and extra levels.  Three-part name of
 burrow: first name of primary dwarf who founded the burrow; purpose of
 burrow; word for chamber (mafol, usually ommitted).  Each burrow can
 also have lower levels for stockpiles of items which overflow their
-production areas.
-	Sunshine burrow (${carpenter}ad): fishery by river; carpenter/
-wood burner/bowyer; walled outside butcher/tanner/leatherworker;
-kennel by pastures?
-	Tradecrafter burrow (${broker}nish): Trade depot and barracks;
+production areas.  Patron statue in alcove named in honor of chamber.
+	Sunshine burrow (${carpenter} Admafol): fishery by river;
+carpenter/wood burner/bowyer; walled outside butcher/tanner/
+leatherworker; kennel by pastures?
+	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks;
 workshops and piles for desired trade items.
-	Shelter burrow (${doctor}ekast): Wagon piles (seed, food, drink,
+	Shelter burrow (${doctor} Ekastmafol): Wagon piles (seed, food, drink,
 weapons, armor); starting 7+2 dedicated beds, 9-bed dorm, mini-hospital,
 dining room and meeting hall, food/drink; hospital.
-	Farm burrow (${brewer}ivom): inside; walled outside; irrigated inside.
-	Stone burrow (${mechanic}lam).
-	Metal burrow (${weaponsmith}kel); bar stockpile.
-	Social burrow (${mayor}rethal): dining room and meeting hall;
+	Farm burrow (${brewer} Ivommafol): inside; walled outside; irrigated inside.
+	Stone burrow (${mechanic} Lammafol).
+	Metal burrow (${weaponsmith} Kelmafol); bar stockpile.
+	Social burrow (${mayor} Rethalmafol): dining room and meeting hall;
 pile prepared meals; statuary; zoo.
 
 

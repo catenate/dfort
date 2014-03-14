@@ -6,7 +6,7 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Develop burrow plan.'
+git commit -a -m 'Name patron statues as pride of craftsmanship and status of guild in burrow.'
 git diff
 git fetch
 git push origin master
