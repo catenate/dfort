@@ -432,11 +432,15 @@ drawbridges.
 Pasture can be larger and unwalled, the animals were largely
 unaffected by the seige.
 
+
+nb burrow name plan
+
 Spread-out nuclei of burrows, and extra levels.  Three-part name of
 burrow: first name of primary dwarf who founded the burrow; purpose of
 burrow; word for chamber (mafol, usually ommitted).  Each burrow can
 also have lower levels for stockpiles of items which overflow their
 production areas.  Patron statue in alcove named in honor of chamber.
+Keep diaries for each burrow with cast, leader, ledger, manager, plan.
 	Sunshine burrow (${carpenter} Admafol): fishery by river;
 carpenter/wood burner/bowyer; walled outside butcher/tanner/
 leatherworker; kennel by pastures?
@@ -450,6 +454,7 @@ dining room and meeting hall, food/drink; hospital.
 	Metal burrow (${weaponsmith} Kelmafol); bar stockpile.
 	Social burrow (${mayor} Rethalmafol): dining room and meeting hall;
 pile prepared meals; statuary; zoo.
+	Barracks burrow (${captain} Ezarmafol); armory.
 
 
 nb stone burrow
