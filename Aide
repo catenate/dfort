@@ -6,7 +6,7 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Tweak shelter.'
+git commit -a -m 'Noting survivors in the cast.'
 git diff
 git fetch
 git push origin master
