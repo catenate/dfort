@@ -535,3 +535,23 @@ nb metal burrow bar stockpile layout
 %=pb========%	electrum
 %Xpb=======X%	lead
 %%%%%%%%%%%%%	silver
+
+
+nb burrow connections
+
+Dig an 11x11 chamber in the ground near the resources it uses.
+Put in the workshops needed now, and drawbridge its entrance.
+Exit out the other side of the chamber to get to the next one,
+and drawbridge the exit.  Tunnel to the next set of resources,
+and repeat.
+
+Also connect directly back to any previous chamber whose contents are
+directly used, drawbridging both ends of the new connecting tunnel.
+
+Drawbridge-seal connections not in use.  Both sides need to agree
+to lower drawbridges to reconnect, so one compromised chamber does not
+give access to the other.  Do not centralize these: takes longer to
+seal them all, but no central point of failure.
+
+Definitely distribute food and drink to the bedrooms, to avoid sealed
+dwarves starving if no access to shelter.
