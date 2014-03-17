@@ -8,7 +8,7 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-git commit -a -m 'Sketch burrow connections and dig procedure.'
+git commit -a -m 'More plan for isolating burrows: the mines/grand staircases should have their own drawbridges for trust, and be internally segmented.'
 git diff
 git fetch
 git push origin master

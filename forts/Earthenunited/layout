@@ -410,9 +410,9 @@ expand with outside walled farm and a nearby soil farm).  From the
 lounge, mine down to stone chamber (chamber 5: jeweler, mason,
 mechanic, stonecrafter, wood burner, forge, smelter; expand with
 mines, shop levels with bedrooms).  Expand borders of every chamber to
-mine veins.  Fill veins with coffin (body) and slab (history) for each
-dwarf.  At end of veins, more chambers (of different type, or same
-type to avoid too many 4-X layers) behind drawbridges.
+mine veins.  Fill veins with coffins.  At end of veins, more chambers
+(of different type, or same type to avoid too many 4-X layers) behind
+drawbridges.
 
                !
               |τ|
@@ -444,8 +444,8 @@ Keep diaries for each burrow with cast, leader, ledger, manager, plan.
 	Sunshine burrow (${carpenter} Admafol): fishery by river;
 carpenter/wood burner/bowyer; walled outside butcher/tanner/
 leatherworker; kennel by pastures?
-	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks/
-animal training zone; workshops and piles for desired trade items.
+	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks;
+workshops and piles for desired trade items.
 	Shelter burrow (${doctor} Ekastmafol): Wagon piles (seed, food, drink,
 weapons, armor); starting 7+2 dedicated beds, 9-bed dorm, mini-hospital,
 dining room and meeting hall, food/drink; hospital.
@@ -455,41 +455,9 @@ dining room and meeting hall, food/drink; hospital.
 	Social burrow (${mayor} Rethalmafol): dining room and meeting hall;
 pile prepared meals; statuary; zoo.
 	Barracks burrow (${captain} Ezarmafol); armory.
-	Garbage dump (not a burrow): separated from fortress by airlock (two closed doors).
 
 
-nb trade craft burrow layout
-
-%%%%%%%%%%%%%	
-%X         X%	animal training zone
-%           %	
-%           %	
-%           %	
-%           %	
-%     θ     %	barracks
-%   O   O   %	
-%           %	
-%     O     %	trade depot
-%           %	
-%X  O   O  X%	
-%%%%%%%%%%%%%	
-
-%%%%%%%%%%%%%	
-%X         X%	
-%           %%	dig down to first or second stone layer
-%           ó%	maybe 2nd db for wall around outside ramps, to clean traps
-%O   O      %%%%%%%%%%%%%%%%%	
-%           dbb	▲  	▲  	▲  	▲
-%  O  θ     dbb	▲  	▲  	▲  	▲	three ramps down on surface
-%           dbb	▲  	▲  	▲  	▲
-%O   O      %%%%%%%%%%%%%%%%%	
-%           %	
-%           %	drawbridge, ramps and traps between trade depot and surface
-%X         X%	
-%%%%%%%%%%%%%	
-
-
-nb stone burrow layout
+nb stone burrow
 
 %%%%%%%%%%%%%	cut gems
 %Xpgs======X%	stone crafts
@@ -506,7 +474,7 @@ nb stone burrow layout
 %%%%%%%%%%%%%	mechanisms
 
 
-nb metal burrow bar stockpile layout
+nb metal burrow bar stockpile
 
 %%%%%%%%%%%%%	metal crafts
 %Xpbc======X%	charcoal pile
@@ -555,3 +523,27 @@ seal them all, but no central point of failure.
 
 Definitely distribute food and drink to the bedrooms, to avoid sealed
 dwarves starving if no access to shelter.
+
+Some connection tunnels may used by one of the two chambers it
+connects, without that chamber wanting connection to the other chamber
+For example, farm tunnels to magma burrow, with magma workshops on one
+level and piles and bedrooms on the other.  The magma burrow wants to
+use the tunnel to mine, but doesn’t want the farm chamber, and the
+farm chamber doesn’t want the magma chamber.  In this case, the farm
+should drawbridge off the tunnel at its wall, the magma chamber should
+also drawbridge off the tunnel at its wall (so far, so normal), and in
+addition the magma chamber should wall off the tunnel just before the
+farm-wall drawbridge, so if the farm is compromised it doesn’t
+compromise the mine.  Come to think of it, the mine should have a
+drawbridge to the magma burrow too, in case it gets flooded with magma
+we don’t lose the mine.  Essentially, set up two-way drawbridge
+chokepoints at every interesting division between portions of the
+fortress, such as between chambers, between chambers and big features
+such as caverns and the surface, and between sections of large
+features such as a grand staircase.
+
+%%%…%%%
+ó╞╡…╞╡ó
+%%%…%%%
+ ←   →
+AAA BBB
