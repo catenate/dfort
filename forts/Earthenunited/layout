@@ -410,9 +410,9 @@ expand with outside walled farm and a nearby soil farm).  From the
 lounge, mine down to stone chamber (chamber 5: jeweler, mason,
 mechanic, stonecrafter, wood burner, forge, smelter; expand with
 mines, shop levels with bedrooms).  Expand borders of every chamber to
-mine veins.  Fill veins with coffins.  At end of veins, more chambers
-(of different type, or same type to avoid too many 4-X layers) behind
-drawbridges.
+mine veins.  Fill veins with coffin (body) and slab (history) for each
+dwarf.  At end of veins, more chambers (of different type, or same
+type to avoid too many 4-X layers) behind drawbridges.
 
                !
               |τ|
@@ -444,8 +444,8 @@ Keep diaries for each burrow with cast, leader, ledger, manager, plan.
 	Sunshine burrow (${carpenter} Admafol): fishery by river;
 carpenter/wood burner/bowyer; walled outside butcher/tanner/
 leatherworker; kennel by pastures?
-	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks;
-workshops and piles for desired trade items.
+	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks/
+animal training zone; workshops and piles for desired trade items.
 	Shelter burrow (${doctor} Ekastmafol): Wagon piles (seed, food, drink,
 weapons, armor); starting 7+2 dedicated beds, 9-bed dorm, mini-hospital,
 dining room and meeting hall, food/drink; hospital.
@@ -455,9 +455,41 @@ dining room and meeting hall, food/drink; hospital.
 	Social burrow (${mayor} Rethalmafol): dining room and meeting hall;
 pile prepared meals; statuary; zoo.
 	Barracks burrow (${captain} Ezarmafol); armory.
+	Garbage dump (not a burrow): separated from fortress by airlock (two closed doors).
 
 
-nb stone burrow
+nb trade craft burrow layout
+
+%%%%%%%%%%%%%	
+%X         X%	animal training zone
+%           %	
+%           %	
+%           %	
+%           %	
+%     θ     %	barracks
+%   O   O   %	
+%           %	
+%     O     %	trade depot
+%           %	
+%X  O   O  X%	
+%%%%%%%%%%%%%	
+
+%%%%%%%%%%%%%	
+%X         X%	
+%           %%	dig down to first or second stone layer
+%           ó%	maybe 2nd db for wall around outside ramps, to clean traps
+%O   O      %%%%%%%%%%%%%%%%%	
+%           dbb	▲  	▲  	▲  	▲
+%  O  θ     dbb	▲  	▲  	▲  	▲	three ramps down on surface
+%           dbb	▲  	▲  	▲  	▲
+%O   O      %%%%%%%%%%%%%%%%%	
+%           %	
+%           %	drawbridge, ramps and traps between trade depot and surface
+%X         X%	
+%%%%%%%%%%%%%	
+
+
+nb stone burrow layout
 
 %%%%%%%%%%%%%	cut gems
 %Xpgs======X%	stone crafts
@@ -474,7 +506,7 @@ nb stone burrow
 %%%%%%%%%%%%%	mechanisms
 
 
-nb metal burrow bar stockpile
+nb metal burrow bar stockpile layout
 
 %%%%%%%%%%%%%	metal crafts
 %Xpbc======X%	charcoal pile

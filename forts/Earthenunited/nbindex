@@ -16,13 +16,17 @@ layout:138: bedroom chair pile coffer cabinet statue cage animal table
 layout:154: loom spinner clothier
 layout:183: start4 inside underground farm
 layout:211: barracks
-layout:233: metal stockpile
-layout:250: jewel stone mechanism cavern
-layout:269: magma metal bar pile smelter forge
-layout:314: cavern tree log plant process
-layout:331: toss throw slam goblin tumble drawbridge siege defense
-layout:365: raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
-layout:384: network
+layout:233: jewel stone mechanism cavern
+layout:252: magma metal bar pile smelter forge
+layout:297: cavern tree log plant process
+layout:314: toss throw slam goblin tumble drawbridge siege defense
+layout:348: raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
+layout:367: network
+layout:394: start order mine chamber
+layout:436: burrow name plan
+layout:461: trade craft burrow layout
+layout:478: stone burrow layout
+layout:495: metal burrow bar stockpile layout
 order:1: embark done order
 order:19: 251 spring done order
 order:22: doing once order

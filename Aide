@@ -1,12 +1,13 @@
 $ convert 255-4.jpg +clone -resize 50% 255-4-half.jpg
 $ import -display :0.0 255-4.jpg
-/n/local/home/jdc/df3411/data/init/init.txt
-/n/local/home/jdc/df3411/raw/objects/language_DWARF.txt
 /github/notabene/catenate/dfort/lang
+/n/local/home/jdc/df3411/data/init/init.txt
+/n/local/home/jdc/df3411/mod/Aide
+/n/local/home/jdc/df3411/raw/objects/language_DWARF.txt
 Edit ,|sort|uniq
 git
 git add .
-git commit -a -m 'Noting survivors in the cast.'
+git commit -a -m 'Crumbling to its end, minus the vampire.  Leave this be for a while to try mods.'
 git diff
 git fetch
 git push origin master
@@ -14,3 +15,4 @@ git rebase origin/master
 mkdir nb
 nsh git diff
 web https://github.com/quietust/DFRawFunctions/tree/master/raws/DF2012
+forts/Earthenunited/layout
