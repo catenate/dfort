@@ -115,6 +115,13 @@ wrong side of the drawbridge so the trap will always fill.
 	To reset the trap after drain, first open it up by constructing
 a lever and connecting it to the second drawbridge.  While looting the
 trap content, recreate the pressure plates.
-	Bah.  This won’t work becase the stupid pressure plates send "open"
+
+Bah.  This won’t work becase the stupid pressure plates send "open"
 not "close" to the drawbridges.
-	Looks like it's all about a far drop from a retracting bridge.
+
+Looks like it's all about a far drop from a retracting bridge.
+
+Or better yet, weapon traps, which just work, and are a more reliable
+weapon delivery system than dwarves.  Use dull weapons though, no need
+to create an undead army.  Also use foreign weapons (whips!).
+Forbid mechanism or corpse so mechanic won’t clear during seige.
