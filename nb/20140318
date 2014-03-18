@@ -1,0 +1,120 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb embark order
+
+Assign bookkeeper, broker, manager, and militia commander.
+Only use dyed thread and cloth in workshops.
+
+Early carpenter makes beds, barrels, bins and buckets.  Early crafter
+makes rock pots.  Early mason makes tables and thrones.  Early kitchen
+makes easy and fine meals.
+
+At embark, mine features of rock walls, looking deeper passages to
+frames, or a 3-wide passage to a depot.  Where enough mined space,
+build (mason|crafter|jeweler)+ workshop(s) to quickly produce items.
+When a passage earns a chamber, or is deep enough to be a tomb,
+build a mechanic workshop to set up mechanism-lever and drawbridge
+of that material (connecting mechanisms can be made of anything).
+
+Clear-cut trees and gather all plants.  Build carpenter’s workshop,
+wood burner, and walled-and-bridged above-ground farm, leading to
+first below-ground farm.
+
+Build a chair of the most unusally-colored stone for the record-keeper:
+the first throne of the fortress.
+
+Once done with the surface mining, dig down to magma to set up a metal
+industry.  Drawbridge both ends of the staircase, as well as the magma
+burrow with two levels, lower for magma furnaces and forges, and the
+upper for beds and stockpiles.
+
+Plan the social burrow behind a waterfall behind grates or fortifications.
+
+
+nb magma burrow workshop pile bedroom layout
+
+%%%%%%%%%%%%%	pile clay
+%Xpbs======X%	pile sand bags
+%pb_n _  _ p%	magma kiln
+%b   bea   b%	magma glass furnace
+%c      be m%	magma pigment furnace
+%=b_s _  _ =%	magma smelter
+%=   bes   =%	magma smelter
+%=      bes=%	magma smelter
+%=bwv      =%	magma forge
+%=_  _wv_  =%	magma forge
+%=      bwv=%	magma forge
+%Xpbm======X%	pile metal bars
+%%%%%%%%%%%%%	pile metal bars
+
+%%%%%%%%%%%%%	pile ceramics
+%Xpgc======X%	pile ceramics
+%ppbg======p%	pile raw glass and glass blocks
+%gpgg======g%	pile glass goods
+%cpug======c%	pile glass furniture
+%=ppg=======%	pile glass trap components
+%=pgm=======%	pile metal crafts
+%=pgm=======%	pile metal goods
+%=pum=======%	pile metal furniture
+%=pdm=======%	pile metal armor
+%=ppm=======%	pile metal weapons
+%Xpgc======X%	pile ceramics
+%%%%%%%%%%%%%	pile ceramics
+
+%%%%%%%%%%%%%	pile drink
+%Xpfm======X%	pile prepared meals
+%p         p%	furnace operator
+%f θ  θ  θ f%	furnace operator
+%d         d%	glassmaker
+%=         =%	weaponsmith
+%= θ  θ  θ =%	armorsmith
+%=         =%	metalsmith
+%=         =%	metal crafter
+%= θ  θ  θ =%	trapper
+%=         =%	mechanic
+%Xpfm======X%	pile prepared meals
+%%%%%%%%%%%%%	pile drink
+
+
+nb flood trap
+
+Wild creatures travel no faster than 400, which is 4 turns and then
+a movement turn.  So the fastest creatures can travel 100/5=20 tiles
+in 100 turns.
+
+dist:  123456789012345678901234567
+
+                          1
+        1 2 3 4 5 6 7 8 9 0 1 2  to dwarves
+time: 0505050505050505050505050  ↑
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%ó%
+    % p                   →  bd#db% enemies can’t get to drain grate(s)
+    % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % P                   ←  db% enemies can’t get back out
+    %%%%%%%%%%%%%%%%%%%%%%%%%% %
+                              ↓
+                              to enemies
+
+At time 0, enemy steps on pressure plate 'p'.
+	At time 5, the fastest wild enemy is 1 square away.
+	At time 10, the fastest wild enemy is 2 squares away.
+	At time 100, the fastest wild enemy is 21 squares away.
+	A drawbridge 25 squares away should always have time to close.
+	A second drawbridge, as far before the pressure plate as you
+care to trap enemies, should be linked to either the same plate or
+another plate 'P' right next to the first plate.
+	The overseer may flood the tunnel from above at leisure, closing
+first the drawbridge after the floor grate, then the hatch below the
+floor grate, and opening the hatches above the pressure plates.
+Once enemies drown, drain trap into cavern via hole(s) in its ceiling.
+	Have pressure plates deconstruct so trap will not open on its own.
+	Building destroyers could destroy the grate (items goto cavern)
+and maybe the hatch below it (trap won’t fill), so keep them on the
+wrong side of the drawbridge so the trap will always fill.
+	To reset the trap after drain, first open it up by constructing
+a lever and connecting it to the second drawbridge.  While looting the
+trap content, recreate the pressure plates.
+	Bah.  This won’t work becase the stupid pressure plates send "open"
+not "close" to the drawbridges.
+	Looks like it's all about a far drop from a retracting bridge.

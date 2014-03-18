@@ -8,22 +8,21 @@ of the burrows to which it is connected.
 Name burrows after the mined-out veins which lead to them.
 
 %%%%%%%%%%%%%
-%X         X%%
-%           ó%%%%
-%             db
-%           ó%%%%
-%             db
-%           ó%%%%
-%             db
-%           ó%%%%
-%             db
-%           %%%%%
-%o         X%
-%ó% ó ó ó ó%%
-%ó% % % % %
-%%%d%d%d%d%
+%X         X%%%%
+%           ódb 
+%           %%%% 
+%           ódb 
+%           %%%%
+%           ódb 
+%           %%%%
+%           ódb 
+%           %%%%
+%           ódb 
+%o         X%%%%
+%ó%ó%ó%ó%ó%%%
+%ó%d%d%d%d%
 %%%b%b%b%b%
-%%% % % % %
+  % % % % %
 
 
 nb well 9x5 cistern river drawbridge plan
@@ -196,12 +195,12 @@ sp=	seeds, plant, product
 %=bwz   ≈≈≈≈%	kitchen
 %p    θ ≈≈≈≈%	grower
 %s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
-%≈   bww   ≈%	cook
-%≈ θ     θ ≈%	farmer’s workshop
+%≈         ≈%	cook
+%≈ θ bww θ ≈%	farmer’s workshop
 %≈         ≈%	brewer
-%≈≈≈≈   bwls%	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+%≈≈≈≈      s%	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
 %≈≈≈≈ θ    p%	thresher
-%≈sp=      =%	still
+%≈sp=   bwl=%	still
 %Xooooo╧╧╧╧X%	quern, press
 %%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
 
@@ -234,15 +233,15 @@ nb jewel stone mechanism cavern
 
 %%%%%%%%%%%%%	cut gems
 %Xpec======X%	cut gems
-%pbwj   bwjp%	jeweler’s workshop
+%pbwj      p%	jeweler’s workshop
 %e    θ    u%	jeweler
-%c         m%	jeweler’s workshop
-%=   pum   e%	jeweler
-%= θ === θ =%	encrusted mechanisms
+%c      bwjm%	jeweler’s workshop
+%=   ===   e%	jeweler
+%= θ pum θ =%	encrusted mechanisms
 %=   ===   =%	mechanic
-%=bwt   bwt =%	mechanic’s workshop
+%=bwt      =%	mechanic’s workshop
 %=    θ    =%	mechanic
-%=         =%	mechanic’s workshop
+%=      bwt=%	mechanic’s workshop
 %Xpume=====X%	mechanisms
 %%%%%%%%%%%%%	mechanisms
 
@@ -267,15 +266,15 @@ nb magma metal bar pile smelter forge
 
 %%%%%%%%%%%%%	pile armor
 %Xpf=======X%	pile furniture 
-%pbwf   bwfp%	forge furniture (eg lead coffins)
+%pbwf      p%	forge furniture (eg lead coffins)
 %af  fθ w  w%	blacksmith
-%=         =%	forge weapons
-%=   pb=   =%	armorsmith
-%=aθ ===wθ =%	pile metal bars
+%=      bwf=%	forge weapons
+%=   ===   =%	armorsmith
+%=aθ pbmwθ =%	pile metal bars
 %=   ===   =%	weaponsmith
-%=bwf   bwf=%	forge armor
+%=bwf      =%	forge armor
 %=a  gθ g  =%	metal crafter
-%=         =%	forge goods
+%=      bwf=%	forge goods
 %Xpg=======X%	pile goods
 %%%%%%%%%%%%%	pile weapons
 
@@ -284,12 +283,12 @@ nb magma metal bar pile smelter forge
 %p         p%	furnace operator
 %b θ  θ  θ b%	furnace operator
 %=         =%	furnace operator
-%=besbesbes=%	smelter
-%=         =%	smelter
-%=         =%	smelter
-%=ps=ps=ps==%	metal bars: iron
-%===========% 	metal bars: pig iron
-%===========%	metal bars: steel
+%=bes      =%	smelter
+%=   bes   =%	smelter
+%=      bes=%	smelter
+%=ps========%	metal bars: iron
+%====ps=====% 	metal bars: pig iron
+%=======ps==%	metal bars: steel
 %Xpb=======X%	pile coal bars (coke and charcoal), bituminous coal, lignite
 %%%%%%%%%%%%%	metal bars: copper
 
@@ -298,15 +297,15 @@ nb cavern tree log plant process
 
 %%%%%%%%%%%%%	wood furniture (no artifacts)
 %Xppxw=====X%	usable wooden crossbows (no artifacts)
-%pbwc   bwbp%	carpenter’s workshop (barrels)
+%pbwc      p%	carpenter’s workshop (barrels)
 %u    θ    f%	bowyer
-%w         d%	bowyer’s workshop
-%=   pub   =%	carpenter
-%= θ === θ =%	barrels (no artifacts)
+%w      bwbd%	bowyer’s workshop
+%=   ===   =%	carpenter
+%= θ pub θ =%	barrels (no artifacts)
 %=   ===   =%	brewer
-%=bew   bwl=%	wood furnace
+%=bew      =%	wood furnace
 %=    θ    =%	wood burner
-%=         =%	still
+%=      bwl=%	still
 %Xpfd======X%	dwarven drink
 %%%%%%%%%%%%%	dwarven drink
 
@@ -345,21 +344,24 @@ or cleaning and resetting traps.
                      %%%%%
 
 
-nb raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
+nb raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm ringwoodite
+
+This should be its own burrow which owns all connections to
+ringwoodite spires and obsidian casting.
 
 _	channel to magma sea under (one) impassible tile
 
 %%%%%%%%%%%%%	pile adamantine weapons
 %Xpda======X%	pile adamantine armor
-%pbwr   phtp%	craftsdwarf’s workshop (extract strand)
+%pbwr   ===p%	craftsdwarf’s workshop (extract strand)
 %p    θ m==p%	best strand extractor
-%a      ===a%	pile adamantine strands (from bwr)
+%a      phta%	pile adamantine strands (from bwr)
 %=    _    =%	best furnace operator
 %= θ bel θ =%	magma smelter (make adamantine wafers)
 %=         =%	best armorer
-%=pbm   bwv=%	pile adamantine wafers
-%=a== θ _ _=%	best weaponsmith
-%====      =%	magma forge (edged weapons, mail/breastplate, helm)
+%=pbm      =%	pile adamantine wafers
+%=a== θ _  =%	best weaponsmith
+%====   bwv=%	magma forge (edged weapons, mail/breastplate, helm)
 %Xpda======X%	pile adamantine armor
 %%%%%%%%%%%%%	pile adamantine weapons
 
@@ -461,15 +463,15 @@ nb stone burrow
 
 %%%%%%%%%%%%%	cut gems
 %Xpgs======X%	stone crafts
-%pbwr   bwtp%	stonecraft workshop
+%pbwr      p%	stonecraft workshop
 %e    θ    f%	mechanic
-%c         m%	mechanic’s workshop
-%=   pus   =%	metal crafter
-%= θ === θ =%	metal bars pile
+%c      bwtm%	mechanic’s workshop
+%=   ===   =%	metal crafter
+%= θ pus θ =%	metal bars pile
 %=   ===   =%	mason
-%=bwj   bwm=%	jeweler’s workshop
+%=bwj      =%	jeweler’s workshop
 %=    θ    =%	jeweler
-%=         =%	mason’s workshop
+%=      bwm=%	mason’s workshop
 %Xpus======X%	stone furniture pile
 %%%%%%%%%%%%%	mechanisms
 
@@ -478,15 +480,15 @@ nb metal burrow bar stockpile
 
 %%%%%%%%%%%%%	metal crafts
 %Xpbc======X%	charcoal pile
-%pbwr   besp%	metalcraft workshop
+%pbwr      p%	metalcraft workshop
 %g    θ    p%	furnace operator
-%m         m%	smelter
-%=   pbm   =%	metal crafter
-%= θ === θ =%	metal bars pile
+%m      besm%	smelter
+%=   ===   =%	metal crafter
+%= θ pbm θ =%	metal bars pile
 %=   ===   =%	weaponsmith
-%=bwf   bwf=%	armor forge
+%=bwf      =%	armor forge
 %=p   θ d  =%	armorer
-%=         =%	weapon forge
+%=      bwf=%	weapon forge
 %Xpdm======X%	metal armor
 %%%%%%%%%%%%%	metal weapons
 

@@ -8,11 +8,12 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-git commit -a -m 'More plan for isolating burrows: the mines/grand staircases should have their own drawbridges for trust, and be internally segmented.'
+git commit -a -m 'Why people build retracting-bridge pit traps.'
 git diff
 git fetch
 git push origin master
 git rebase origin/master
 mkdir nb
+nb/Aide
 nsh git diff
 web https://github.com/quietust/DFRawFunctions/tree/master/raws/DF2012

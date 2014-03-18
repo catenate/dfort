@@ -20,13 +20,13 @@ layout:233: jewel stone mechanism cavern
 layout:252: magma metal bar pile smelter forge
 layout:297: cavern tree log plant process
 layout:314: toss throw slam goblin tumble drawbridge siege defense
-layout:348: raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm
-layout:367: network
-layout:394: start order mine chamber
-layout:436: burrow name plan
-layout:461: trade craft burrow layout
-layout:478: stone burrow layout
-layout:495: metal burrow bar stockpile layout
+layout:348: raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm ringwoodite
+layout:370: network
+layout:397: start order mine chamber
+layout:439: burrow name plan
+layout:463: stone burrow
+layout:480: metal burrow bar stockpile
+layout:511: burrow connections
 order:1: embark done order
 order:19: 251 spring done order
 order:22: doing once order
