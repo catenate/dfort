@@ -8,7 +8,7 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-git commit -a -m 'Use weapon traps, easy to put anywhere.'
+git commit -a -m 'Start outpost Geartwisted.'
 git diff
 git fetch
 git push origin master
