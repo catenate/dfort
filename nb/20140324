@@ -1,0 +1,212 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb network
+
+First stair: first set of chambers and the first staircase from top
+to bottom.
+
+Defense: barracks, weapon and armor producers, defensive works,
+hospital.
+
+Food: farms, outside, caverns.
+
+Stone: mines, masons, mechanics, stonecrafters, jewelers.
+
+Each network has an entire level devoted to its interconnections, so
+in the most centralized case, each chamber sends a path to the inter-
+connect level, and this level takes care of tying them all together.
+One drawbridge per network connected, interconnects can be widened
+for a lot of traffic.
+
+In the most disconnected case, every chamber has a unique connection
+to each other it directly needs.  One drawbridge per chamber connected,
+have to dig separate tunnel for each pair of chambers connected.
+Can accommodate the shortest path between two chambers.
+
+A middle approach is to reuse existing paths of the network wherever
+possible.  Mining and pathing cost vs.  extra travel distance.
+
+
+nb burrow connections
+
+Dig an 11x11 chamber in the ground near the resources it uses.
+Put in the workshops needed now, and drawbridge its entrance.
+Exit out the other side of the chamber to get to the next one,
+and drawbridge the exit.  Tunnel to the next set of resources,
+and repeat.
+
+Also connect directly back to any previous chamber whose contents are
+directly used, drawbridging both ends of the new connecting tunnel.
+
+Drawbridge-seal connections not in use.  Both sides need to agree
+to lower drawbridges to reconnect, so one compromised chamber does not
+give access to the other.  Do not centralize these: takes longer to
+seal them all, but no central point of failure.
+
+Definitely distribute food and drink to the bedrooms, to avoid sealed
+dwarves starving if no access to shelter.
+
+Some connection tunnels may used by one of the two chambers it
+connects, without that chamber wanting connection to the other chamber
+For example, farm tunnels to magma burrow, with magma workshops on one
+level and piles and bedrooms on the other.  The magma burrow wants to
+use the tunnel to mine, but doesn’t want the farm chamber, and the
+farm chamber doesn’t want the magma chamber.  In this case, the farm
+should drawbridge off the tunnel at its wall, the magma chamber should
+also drawbridge off the tunnel at its wall (so far, so normal), and in
+addition the magma chamber should wall off the tunnel just before the
+farm-wall drawbridge, so if the farm is compromised it doesn’t
+compromise the mine.  Come to think of it, the mine should have a
+drawbridge to the magma burrow too, in case it gets flooded with magma
+we don’t lose the mine.  Essentially, set up two-way drawbridge
+chokepoints at every interesting division between portions of the
+fortress, such as between chambers, between chambers and big features
+such as caverns and the surface, and between sections of large
+features such as a grand staircase.
+
+%%%…%%%
+ó╞╡…╞╡ó
+%%%…%%%
+ ←   →
+AAA BBB
+
+
+nb start order mine chamber
+
+As general procedure, first mine the trade depot (chamber 1: trade
+depot, first temporary workshops: carpenter, mason, mechanic, still,
+kitchen; simplify by removing temporary workshops; expand with shops
+to make trade goods) and be able to close it up with a bridge.  On the
+other side of the trade depot, out of soil and far enough away to put
+between them both drawbridges and connections to other chambers, mine
+a tunnel down to a storeroom (chamber 2: piles; expand with more of
+the same) to unload the wagon.  On the other side of the storeroom,
+mine a tunnel further down to a lounge (chamber 3: dorms, mini-hospital,
+dining room and meeting hall, pile food and drink; expand with real
+hospital, dining room, statuary, zoo), which should eventually be
+above a cistern.  On the other side of the lounge, mine back up to an
+inside farm (chamber 4: demolish kitchen and still in trade area;
+expand with outside walled farm and a nearby soil farm).  From the
+lounge, mine down to stone chamber (chamber 5: jeweler, mason,
+mechanic, stonecrafter, wood burner, forge, smelter; expand with
+mines, shop levels with bedrooms).  Expand borders of every chamber to
+mine veins.  Fill veins with coffins.  At end of veins, more chambers
+(of different type, or same type to avoid too many 4-X layers) behind
+drawbridges.
+
+               !
+              |τ|
+               X
+ !+-p-+1O      4♠+-+♠
+       X+     +
+       r \   /
+          + +
+           2=
+    Ho    +X+
+    X|   / = \
+   ó3θ+-*     *--+5ℒ+-***
+    X|
+≈#+≈+≈
+
+
+Pasture can be larger and unwalled, the animals were largely
+unaffected by the seige.
+
+
+nb burrow name plan
+
+Spread-out nuclei of burrows, and extra levels.  Three-part name of
+burrow: first name of primary dwarf who founded the burrow; purpose of
+burrow; word for chamber (mafol, usually ommitted).  Each burrow can
+also have lower levels for stockpiles of items which overflow their
+production areas.  Patron statue in alcove named in honor of chamber.
+Keep diaries for each burrow with cast, leader, ledger, manager, plan.
+	Sunshine burrow (${carpenter} Admafol): fishery by river;
+carpenter/wood burner/bowyer; walled outside butcher/tanner/
+leatherworker; kennel by pastures?
+	Tradecrafter burrow (${broker} Nishmafol): Trade depot and barracks;
+workshops and piles for desired trade items.  3-wide trapped corridor.
+	Shelter burrow (${doctor} Ekastmafol): Wagon piles (seed, food, drink,
+weapons, armor); starting 7+2 dedicated beds, 9-bed dorm, mini-hospital,
+dining room and meeting hall, food/drink; hospital.
+	Farm burrow (${brewer} Ivommafol): soil inside; walled outside;
+irrigated inside.
+	Stone burrow (${mechanic} Lammafol): mason, mechanic, jeweler,
+crafter.
+	Metal burrow (${weaponsmith} Kelmafol); bar stockpile.
+	Social burrow (${mayor} Rethalmafol): dining room and meeting hall;
+pile prepared meals; statuary; zoo.
+	Barracks burrow (${captain} Ezarmafol); armory.
+
+
+nb stone burrow
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stone crafts
+%pbwr      p%	stonecraft workshop
+%e    θ    f%	mechanic
+%c      bwtm%	mechanic’s workshop
+%=   ===   =%	stone crafter
+%= θ pus θ =%	stone furniture pile
+%=   ===   =%	mason
+%=bwj      =%	jeweler’s workshop
+%=    θ    =%	jeweler
+%=      bwm=%	mason’s workshop
+%Xpus======X%	stone furniture pile
+%%%%%%%%%%%%%	mechanisms
+
+
+nb metal burrow bar stockpile
+
+%%%%%%%%%%%%%	metal crafts
+%Xpbc======X%	charcoal pile
+%pbwr      p%	metalcraft workshop
+%g    θ    p%	furnace operator
+%m      besm%	smelter
+%=   ===   =%	metal crafter
+%= θ pbm θ =%	metal bars pile
+%=   ===   =%	weaponsmith
+%=bwf      =%	armor forge
+%=p   θ d  =%	armorer
+%=      bwf=%	weapon forge
+%Xpdm======X%	metal armor
+%%%%%%%%%%%%%	metal weapons
+
+%%%%%%%%%%%%%	silver
+%Xpb=======X%	silver
+%ppb=======p%	iron
+%bpb=======b%	iron
+%=pb========%	pig iron
+%=pb========%	pig iron
+%=pb========%	steel
+%=pb========%	steel
+%=pb========%	bronze
+%=pb========%	brass
+%=pb========%	electrum
+%Xpb=======X%	lead
+%%%%%%%%%%%%%	silver
+
+
+nb raw adamantite extract strand crafter pile magma smelter furnace operator armorer weaponsmith forge adamantine edge weapon mail breastplate helm ringwoodite
+
+This should be its own burrow which owns all connections to
+ringwoodite spires and obsidian casting.
+
+_	channel to magma sea under (one) impassible tile
+
+%%%%%%%%%%%%%	pile adamantine weapons
+%Xpda======X%	pile adamantine armor
+%pbwr   ===p%	craftsdwarf’s workshop (extract strand)
+%p    θ m==p%	best strand extractor
+%a      phta%	pile adamantine strands (from bwr)
+%=    _    =%	best furnace operator
+%= θ bel θ =%	magma smelter (make adamantine wafers)
+%=         =%	best armorer
+%=pbm      =%	pile adamantine wafers
+%=a== θ _  =%	best weaponsmith
+%====   bwv=%	magma forge (edged weapons, mail/breastplate, helm)
+%Xpda======X%	pile adamantine armor
+%%%%%%%%%%%%%	pile adamantine weapons
+
+

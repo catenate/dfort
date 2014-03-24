@@ -8,12 +8,14 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-git commit -a -m 'Start outpost Geartwisted.'
+git commit -a -m 'Aggregate notes about burrow network and layouts.'
 git diff
 git fetch
 git push origin master
 git rebase origin/master
+ls -d forts/*/*
 mkdir nb
 nb/Aide
+nb burrow plan
 nsh git diff
 web https://github.com/quietust/DFRawFunctions/tree/master/raws/DF2012
