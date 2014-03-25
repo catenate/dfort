@@ -8,11 +8,7 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-<<<<<<< HEAD
-git commit -a -m 'Aggregate notes about burrow network and layouts.'
-=======
-git commit -a -m 'Lay out Geartwisted, first year.'
->>>>>>> Lay out Geartwisted, first year.
+git commit -a -m 'Move stonedwarves to 60, hospital on 137.'
 git diff
 git fetch
 git push origin master

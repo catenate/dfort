@@ -110,6 +110,59 @@ set up or under seige.
   %%%%%      	well for mini-hospital, chair for bookkeeper
 
 
+nb hospital soap industry
+containers for gypsum powder in bedrooms
+dedicated well(s) in the walls
+surgeon, suturer, diagnostician, bone doctor, wound dresser
+Edit s,║,◘,g
+
+◘◘◘◘◘◘◘◘◘◘◘◘◘	Food (prepared meals only)
+◘Xph=======X◘	Cloth (cloth and thread; except adamantine)
+◘p+++θRθ+++p◘	bedroom (5²)
+◘f+θ+θτθ+θ+u◘	surgery table (4)
+◘u+++θRθ+++g◘	
+◘=θθθ+++θθθ=◘	hospital bed (24)
+◘=RτR+θ+RτR=◘	traction bed (8)
+◘=θθθ+++θθθ=◘	
+◘=+++θRθ+++=◘	smoothed floor and walls
+◘=+θ+θτθ+θ+=◘	
+◘=+++θRθ+++=◘	
+◘Xpbs======X◘	Bars: Other Materials (soap)
+◘◘◘◘◘◘◘◘◘◘◘◘◘	Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+
+
+%%%%%%%%%%%%%	Fat (tallow)
+%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
+%ppb=   bwyp%	Bars: Other Materials (ash)
+%f=== θ    f%	Lye maker
+%t===      x%	Ashery
+%=   pfl   =%	Soap maker
+%= θ === θ =%	Food: Misc. Liquid (lye)
+%=   ===   =%	Lye maker
+%=bwS   pbS=%	Soap maker’s workshop
+%=    θ ====%	Soap maker
+%=      ====%	Bars: Other Materials (soap)
+%XpbS======X%	Bars: Other Materials (soap)
+%%%%%%%%%%%%%	Plant Extracts (rock nut oil)
+
+
+nb stone burrow
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stone crafts
+%pbwr      p%	stonecraft workshop
+%e    θ    f%	mechanic
+%c      bwtm%	mechanic’s workshop
+%=   ===   s%	stone crafter
+%= θ pus θ =%	stone furniture pile
+%=   ===   =%	mason
+%=bwj      =%	jeweler’s workshop
+%=    θ    =%	jeweler
+%=      bwm=%	mason’s workshop
+%Xpus======X%	stone furniture pile
+%%%%%%%%%%%%%	stone mechanisms
+
+
 nb magma burrow furnace forge workshop pile bedroom layout
 
 %%%%%%%%%%%%%	pile clay stone

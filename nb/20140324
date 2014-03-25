@@ -140,23 +140,6 @@ pile prepared meals; statuary; zoo.
 	Barracks burrow (${captain} Ezarmafol); armory.
 
 
-nb stone burrow
-
-%%%%%%%%%%%%%	cut gems
-%Xpgs======X%	stone crafts
-%pbwr      p%	stonecraft workshop
-%e    θ    f%	mechanic
-%c      bwtm%	mechanic’s workshop
-%=   ===   =%	stone crafter
-%= θ pus θ =%	stone furniture pile
-%=   ===   =%	mason
-%=bwj      =%	jeweler’s workshop
-%=    θ    =%	jeweler
-%=      bwm=%	mason’s workshop
-%Xpus======X%	stone furniture pile
-%%%%%%%%%%%%%	mechanisms
-
-
 nb metal burrow bar stockpile
 
 %%%%%%%%%%%%%	metal crafts

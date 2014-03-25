@@ -6,7 +6,7 @@ nb mountain level list map
 140	(Underground farm.)  Shelter wagon piles.  Peat walls.  Clay loam walls.  Red sand walls.  Red sand.  Trees, shrubs, grass.  Murky pools of stagnant water.  Waterfall.  Spillway to large cistern.
 139	(Proper dining room and meeting hall, with fortified or grated waterfall wall, and well to waterfall cistern.)  Trees, shrubs, grass.  Red sand walls.  Sandy clay walls.  Clay loam walls.  Lignite walls.  Waterfall.  Red sand.  Spillway to large cistern.
 138	First social area.  Top of downshaft.  White opal cluster.  Trees, shrubs, grass.  Waterfall and brook.  Red sand walls.  Pipe opal clusters.  Spillway to large brook cistern.  [White opal cluster.  Yellow jasper cluster.]
-137	(Hospital.)  Spillway to large brook cistern.  [White opal cluster.]
+137	Hospital.  Spillway to large brook cistern.  [White opal cluster.]
 136	Small cistern.  Brook channel.  Spillway to large brook cistern.
 135	Spillway to large brook cistern.
 134	Spillway to large brook cistern.  [Yellow jasper cluster.]
@@ -19,18 +19,21 @@ nb mountain level list map
 127	[Prase opal cluster.]
 125	Prase opal cluster.
 120	Milk quartz cluster.
-98	Marble walls.  Calcite wall.  Green zircon clusters.  Red pyrope cluster.
-97	Marble walls.  (Hatch cover.)  Green zircon clusters.  Fungiwood and tower-cap trees.  Giant cave spider silk webs.  Red pyrope cluster.  Golden beryl clusters.  Blue garnet cluster.
-96	Marble walls.  Calcite walls.  Green zircon clusters.  Golden beryl clusters.  Blue garnet cluster.
-95	Microcline.  Smoky quartz clusters.  Fungiwood and tower-cap trees.  Giant cave spider silk webs.  Red pyrope clusters.
+99	Cavern.
+98	Cavern.  Marble walls.  Calcite wall.  Green zircon clusters.  Red pyrope cluster.
+97	Cavern.  Marble walls.  Forbidden hatch cover.  Green zircon clusters.  Fungiwood and tower-cap trees.  Giant cave spider silk webs.  Red pyrope cluster.  Golden beryl clusters.  Blue garnet cluster.
+96	Cavern.  Marble walls.  Calcite walls.  Green zircon clusters.  Golden beryl clusters.  Blue garnet cluster.
+95	Cavern.  Microcline.  Smoky quartz clusters.  Fungiwood and tower-cap trees.  Giant cave spider silk webs.  Red pyrope clusters.
+94	Cavern.  Microcline.  Fungiwood and tower-cap trees.  Giant cave spider silk webs.  Water.
 C1+2–126	(Large waterfall cistern from brook channel for proper dining room and meeting hall.)
+60	Stone burrow.
 34	Pitchblende wall.
 22	Alexandrite cluster.
 11	Alexandrite cluster.
 -12	Pitchblende wall.
 -18	Magma burrow: (Smoothed) bedrooms.
 -19	Magma sea.  Magma burrow: Metal, ceramic, and glass products.  Cassiterite walls.  Ringwoodite walls.
--20	Magma sea.  Magma burrow: Furnaces and forges.  Cassiterite walls.  Ringwoodite walls.
+-20	Magma sea.  Magma burrow: Furnaces and forges (one for Moldath), forbidden hatch cover.  Cassiterite walls.  Ringwoodite walls.
 -21	Magma sea.  (Adamantine burrow.)  Cassiterite walls.  Ringwoodite walls.
 -22	Magma sea.  Pitchblende walls.  Cassiterite walls.  Alexandrite clusters.  Ringwoodite walls.
 -23	Magma sea.  Semi-molten rocks.  Cassiterite walls.  Pitchblende walls.  Ringwoodite walls.  Warm granite walls.
