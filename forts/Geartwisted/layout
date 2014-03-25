@@ -14,7 +14,7 @@ This storeroom allows a fortress to be built or reclaimed.
 %=pf========%	
 %=pfu=======%	
 %=pa========%	
-%=pb========%	
+%=p+========%	
 %=ph========%	
 %Xpl=======X%	
 %%%%%%%%%%%%%	
@@ -26,12 +26,12 @@ This storeroom allows a fortress to be built or reclaimed.
 	pf: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks); no prepared food
 	pfu: only prepared meals
 	pa: Animals, empty cages, empty animal traps
-	pb: Bars: Other Materials (coal, potash, ash, pearlash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+	pb: Bars: Other Materials (ash, soap), Food: Misc. Liquid (lye; no prepared food), Furniture (wood or metal (except adamantine) buckets; no artifact), Finished Goods (chains, splints, crutches; no artifact, no ringwoodite or adamantine)
 	ph: Cloth and thread (except adamantine)
-	pz: Ammo (no artifact, no [raw] adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no [raw] adamantine), Trap Components (no artifact, no [raw] adamantine, only useable)
-	pp: Weapons (no artifact, no [raw] adamantine, only useable), Furniture (weapon racks; no artifact, no [raw] adamantine), Finished Goods (backpacks; no artifacts)
-	pd: Armor (no artifact, no [raw] adamantine, only useable), Furniture (armor stands; no artifact, no [raw] adamantine), Finished Goods (armor; no artifact, no [raw] adamantine, only useable)
-	pl: Leather, Refuse (tanned hides)
+	pz: Ammo (no artifact, no adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no ringwoodite or adamantine), usable Trap Components (no artifact, no ringwoodite or adamantine)
+	pp: usable Weapons (metal battle axes, war hammers, short swords, spears, maces, crossbows, picks; wood training axes, training swords, training spears; obsidian short swords; no artifact, no ringwoodite or adamantine), Furniture (weapon racks; no artifact, no [raw] adamantine)
+	pd: usable Armor (breastplates, mail shirts, armor, helms, caps, high boots, low boots, gauntlets, leggings, greaves, shields, bucklers; no artifact, no ringwoodite or adamantine), Furniture (armor stands; no artifact, no [raw] adamantine)
+	pl: Leather, Refuse (tanned hides), Finished Goods (leather and metal quivers, flasks, backpacks; no artifacts)
 
 
 nb outside inside crop wiki
@@ -56,6 +56,38 @@ nb outside farm admofal
 ║Xoooo╥╧╧╧╧X║	quern, bookkeeper office, press
 ╚═══════════╝	
 
+Hide root seeds; hide root plants; redroot dye.
+Rat weed seeds; rat weed plants; sewer brew.
+Wild strawberry seeds; wild strawberry plants; sewer brew.
+Blade weed seeds; blade weed plants; emerald dye.
+Longland grass seeds; longland grass plants; longland flour, longland beer.
+Prickle berry seeds; prickle berry plants; prickle berry wine.
+Fisher berry seeds; fisher berry plants; fisher berry wine.
+Rope reed seeds; rope reed plants; river spirits, rope reed thread.
+
+
+nb inside underground farm
+
+≈≈≈	plot
+≈≈≈
+sp=	seeds, plant, product
+
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+%X≈≈≈≈≈≈sp=X%	dimple, wheat, wheat, dimple → dye, beer, flour
+%=bwz   ≈≈≈≈%	kitchen
+%p    θ ≈≈≈≈%	planter/grower
+%s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+%≈         ≈%	cook
+%≈ θ bww θ ≈%	farmer’s workshop
+%≈         ≈%	brewer
+%≈≈≈≈      s%	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+%≈≈≈≈ θ    p%	thresher
+%≈sp=   bwl=%	still
+%Xooooo╧╧╧╧X%	quern, press
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+
+Don’t cook seeds, brewable plants, alcohol, or tallow.
+
 
 nb social prepared food dormitory hospital dining room
 
@@ -64,15 +96,60 @@ set up or under seige.
 
 %%%%%%%%%%%%%	prepared meals
 %Xpfd======X%	drink
-%pθθθ╤╤╤╤╤╤p%	claimed beds: starting 7+2
-%fθ8θ╥╥╥╥╥╥f%	
-%uθθθ╥╥╥π╥╥u%	dining room and meeting hall
-%=θθθ╤╤╤╤╤╤=%	dormitory
-%=θ8θ╤╤╤╤╤╤=%	
-%=θθθ╥╥╥╥╥╥=%	
-%=θÆθpfdpfu=%	mini-hospital
-%=θΤθ=======%	drink
-%=θRθ=======%	prepared meals
+%pθθθ╥╥╥╥╥╥p%	claimed beds: starting 7+2
+%fθ8θ╤╤╤╤╤╤f%	
+%uθθθ╤╤╤T╤╤u%	dining room and meeting hall
+%=θθθ╥╥╥╥╥╥=%	dormitory
+%=θ8θ╥╥╥╥╥╥=%	
+%=θθθ╤╤╤╤╤╤=%	
+%=ÆRΤpfdpfu=%	mini-hospital
+%=θθθ=======%	drink
+%=θθθ=======%	prepared meals
 %Xpfd======X%	drink
 %%%o%╥%%%%%%%	prepared meals
   %%%%%      	well for mini-hospital, chair for bookkeeper
+
+
+nb magma burrow furnace forge workshop pile bedroom layout
+
+%%%%%%%%%%%%%	pile clay stone
+%Xpbs======X%	pile sand bags
+%pb_n _  _ p%	magma kiln
+%b   bea   b%	magma glass furnace
+%c      be m%	magma pigment furnace
+%=b_s _  _ =%	magma smelter
+%=   bes   =%	magma smelter
+%=      bes=%	magma smelter
+%=bwv      =%	magma forge
+%=_  _wv_  =%	magma forge
+%=      bwv=%	magma forge
+%Xpbm======X%	pile metal bars
+%%%%%%%%%%%%%	pile metal bars
+
+%%%%%%%%%%%%%	pile ceramic goods
+%Xpbc======X%	pile clay blocks
+%ppbg======p%	pile rough/cut glass and glass blocks
+%gpgg======g%	pile glass goods
+%cpug======c%	pile glass furniture
+%=ppg=======%	pile usable glass weapons and trap parts
+%=pgm=======%	pile metal crafts
+%=pgm=======%	pile metal goods
+%=pum=======%	pile metal furniture
+%=pdm=======%	pile usable metal armor
+%=ppm=======%	pile usable metal dwarven weapons and trap parts
+%Xpgc======X%	pile ceramic goods
+%%%%%%%%%%%%%	pile ceramic goods
+
+%%%%%%%%%%%%%	pile drink
+%Xpfm======X%	pile prepared meals
+%p         p%	furnace operator
+%f θ  θ  θ f%	furnace operator
+%d         d%	glassmaker
+%=         =%	weaponsmith
+%= θ  θ  θ =%	armorsmith
+%=         =%	metalsmith
+%=         =%	metalcrafter
+%= θ  θ  θ =%	trapper
+%=         =%	mechanic
+%Xpfm======X%	pile prepared meals
+%%%%%%%%%%%%%	pile drink
