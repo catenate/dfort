@@ -8,7 +8,7 @@ Edit ,|sort|uniq
 forts/Earthenunited/layout
 git
 git add .
-git commit -a -m 'Move stonedwarves to 60, hospital on 137.'
+git commit -a -m 'Rework how details are expressed on the mountain map.'
 git diff
 git fetch
 git push origin master
