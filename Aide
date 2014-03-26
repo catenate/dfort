@@ -6,16 +6,18 @@ $ import -display :0.0 255-4.jpg
 /n/local/home/jdc/df3411/raw/objects/language_DWARF.txt
 Edit ,|sort|uniq
 forts/Earthenunited/layout
+forts/Geartwisted/layout
+forts/Geartwisted/map
 git
 git add .
-git commit -a -m 'Track progress.'
+git commit -a -m 'Adjust conventions.'
 git diff
 git fetch
 git push origin master
 git rebase origin/master
 ls -d forts/*/*
 mkdir nb
-nb/Aide
 nb burrow plan
+nb/Aide
 nsh git diff
 web https://github.com/quietust/DFRawFunctions/tree/master/raws/DF2012
