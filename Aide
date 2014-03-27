@@ -10,7 +10,7 @@ forts/Geartwisted/layout
 forts/Geartwisted/map
 git
 git add .
-git commit -a -m 'The illnesses are a constant disruption.'
+git commit -a -m 'Geartwisted: Expand restart burrow to another level for incoming trade-sort piles.  Expand king chamber in noble burrow to its own king burrow, fit for an emperor (if an emperor had a king’s requirements).  Tour through burrows.'
 git diff
 git fetch
 git push origin master

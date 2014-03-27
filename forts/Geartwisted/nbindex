@@ -1,2 +1,8 @@
-map:4: level map
-map:14: storeroom layout seeds plant drink food animal cage trap bar cloth thread ammo weapon armor leather
+layout:4: storeroom layout seeds plant drink food animal cage trap bar cloth thread ammo weapon armor leather ekastmafol
+layout:37: outside inside crop wiki
+layout:41: outside farm admofal
+layout:70: inside underground farm
+layout:93: social prepared food dormitory hospital dining room
+layout:114: hospital soap industry
+layout:150: stone burrow
+layout:167: magma burrow furnace forge workshop pile bedroom layout
