@@ -64,6 +64,7 @@ Longland grass seeds; longland grass plants; longland flour, longland beer.
 Prickle berry seeds; prickle berry plants; prickle berry wine.
 Fisher berry seeds; fisher berry plants; fisher berry wine.
 Rope reed seeds; rope reed plants; river spirits, rope reed thread.
+Whip vine seeds; whip vine plants; whip wine, whip vine flour.
 
 
 nb inside underground farm
@@ -132,16 +133,16 @@ Edit s,║,◘,g
 
 
 %%%%%%%%%%%%%	Fat (tallow)
-%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
-%ppb=   bwyp%	Bars: Other Materials (ash)
+%Xpu=======X%	Furniture (buckets; no artifact, no ringwoodite or adamantine)
+%ppb=      p%	Bars: Other Materials (ash)
 %f=== θ    f%	Lye maker
-%t===      x%	Ashery
+%t===   bwyx%	Ashery
 %=   pfl   =%	Soap maker
 %= θ === θ =%	Food: Misc. Liquid (lye)
 %=   ===   =%	Lye maker
-%=bwS   pbS=%	Soap maker’s workshop
+%=bwS   ====%	Soap maker’s workshop
 %=    θ ====%	Soap maker
-%=      ====%	Bars: Other Materials (soap)
+%=      pbS=%	Bars: Other Materials (soap)
 %XpbS======X%	Bars: Other Materials (soap)
 %%%%%%%%%%%%%	Plant Extracts (rock nut oil)
 
