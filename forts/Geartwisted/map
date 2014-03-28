@@ -2,7 +2,7 @@
 	142	Trees, shrubs, grass.  Colonies of honey bees.  Colony of bumblebees.  Peat wall.
 	141	(Trade burrow: UNWALLED outside 3-wide paved road to ramps.)  OPEN (trapped) linked bridge from outside to walled and unroofed outside farm, farm workshops, outside workshops, deprecated trade depot, and wagon.  UNWALLED outside poultry pasture with nest boxes, midsize pasture, large pasture.  UNWALLED outside large refuse pile.  UNWALLED outside fishery.  Brook and waterfall.  Trees,  shrubs, grasses and bamboo.  Peat walls.  Sandy clay walls.  Murky pools of stagnant water.  Colonies of termites.  Colony of ants.
 	140	(Trade burrow: OPEN (trapped) (linked) (bridge) to ramps.)  OPEN (trapped) linked bridge from walled farm to inside farm.  OPEN (trapped) linked bridge from walled farm to restart burrow: wagon piles.  Peat walls.  Clay loam walls.  Red sand walls.  Red sand.  Trees, shrubs, grass.  Murky pools of stagnant water.  Waterfall.  Brook channel, drawbridge, grate.  Spillway to large cistern.
-	139	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  (Proper dining room and meeting hall, with fortified or grated waterfall wall, and well to waterfall large cistern.)  Spillway to large cistern.  Red sand designated for collection.  Trees, shrubs, grass.  Red sand walls.  Sandy clay walls.  Clay loam walls.  Lignite veins.  Waterfall.
+	139	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  (Proper dining room and meeting hall, with fortified or grated waterfall wall, and well to waterfall large cistern.)  (Inside farm.)  Spillway to large cistern.  Red sand designated for collection.  Trees, shrubs, grass.  Red sand walls.  Sandy clay walls.  Clay loam walls.  Lignite veins.  Waterfall.
 	138	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  OPEN (trapped) linked bridge from walled farm to shelter burrow: Beds and tables.  OPEN (trapped) linked bridge from walled farm to upper deepstair.  OPEN (trapped) linked bridge from upper deepstair.  Trees, shrubs, grass.  Waterfall and brook.  Red sand walls.  Pipe opal clusters.  Spillway to large brook cistern.  White opal floor.  Yellow jasper floor.
 	137	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  Shelter burrow: Hospital.  (Linked bridge backflow to 2x2-stair spillway to waterfall large cistern.)  Spillway to large brook cistern.  White opal floor.
 	136	(Trade burrow: OPEN (trapped) (linked) (bridge) from (trade-burrow tunnel) to (trade depot) and (barracks).)  (OPEN (trapped) (linked) (bridge) from trade depot to trade-sort piles.)  (OPEN (trapped) (linked) (bridge) from trade-sort piles to trade depot.)  Restart burrow: (trade-sort piles.)  Shelter burrow: Soap industry.  Small cistern.  Spillway to large brook cistern.  White opal cluster.
@@ -17,8 +17,9 @@
 	127	Prase opal floor.
 	125	Prase opal cluster.
 	120	Milk quartz floor.
-	101	(2x2 stairs spillway to waterfall large cistern, from brook channel backflow, for proper dining room and meeting hall with waterfall grate wall.)
-	99	Cavern.
+	101	(2x2 stairs spillway to waterfall large cistern, from brook channel backflow, for proper dining room and meeting hall with waterfall grate wall.)  Marble walls.
+	100	Marble walls.
+	99	Cavern.  Marble walls.
 	98	Cavern.  Marble walls.  Calcite wall.  Green zircon clusters.  Red pyrope cluster.
 	97	Cavern.  Marble walls.  OPEN (trapped) (linked) bridge from lower deepstair to upper deepstair.  OPEN (trapped) (linked) bridge from upper deepstair to lower deepstair.  Forbidden hatch cover to cavern ceiling.  Green zircon clusters.  Trees.  Webs.  Red pyrope cluster.  Golden beryl clusters.  Blue garnet cluster.
 	96	Cavern.  Marble walls.  Calcite walls.  Green zircon clusters.  Golden beryl clusters.  Blue garnet cluster.

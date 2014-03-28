@@ -3,7 +3,8 @@ Font /fonts/10646/9x15/9x15.font
 
 nb storeroom layout seeds plant drink food animal cage trap bar cloth thread ammo weapon armor leather ekastmafol
 
-This storeroom allows a fortress to be built or reclaimed.
+These storerooms of sorted wagon and import goods allows a fortress to
+be built or reclaimed.
 
 %%%%%%%%%%%%%	
 %Xpz=======X%	
@@ -221,3 +222,9 @@ open bridge, stone burrow; open bridge, furnaces and forges, metal items,
 beds (metal burrow). Open bridge, cassiterite veins.
 
 Well, open bridge, beds and tables, hospital, soap (shelter burrow).
+
+
+nb trade export
+
+Mountainhome wants crowns, legwear, tanned hides, musical instruments,
+quivers, earrings, cheese, spears, cloth, powder, and goblets.
