@@ -1,2 +1,4 @@
 Edit ,|sort|uniq
+ls -F | grep -v '^2' | mc
 nbnow=`{nbnow | sed 's,\..*,,'}; touch $nbnow; plumb $nbnow
+nb couverture

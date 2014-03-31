@@ -10,7 +10,7 @@ forts/Geartwisted/layout
 forts/Geartwisted/map
 git
 git add .
-git commit -a -m 'First mini-fort needs to be compact and quick.'
+git commit -a -m 'Finally translated dwarf language to unicode.  Overcomplicated cacao restart.'
 git diff
 git fetch
 git push origin master

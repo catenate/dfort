@@ -1,0 +1,15 @@
+nb couverture item list
+
+	0.1	Criollo cacao.  Tree in tropical moist broadleaf forest.  Liked for pale flowers, orange ovoid pods.
+	0.2	Forastero cacao.  Tree in tropical moist broadleaf forest.  Liked for pale flowers, orange ovoid pods.
+	0.3	Trinitario cacao.  Tree in tropical moist broadleaf forest.  Liked for pale flowers, orange ovoid pods.
+
+	1.1	$CFT cacao pod. Plant harvested from $CFT cacao tree.
+
+	2.1	$CFT cacao pulp.  Fibrous byproduct of processing $CFT cacao pod.
+	2.2	$CFT cocoa bean.  Seed syproduct of processing $CFT cacao pod.  No seeds since no plantable trees.
+
+	3.1.1	rädukarel “bitter water”.  Brewed fermented $CFT cacao pulp.
+	3.1.2	gulgunarel “frothy [flour] water”.  Brewed maize and cacao beverage.  Principal ingredients include toasted maize flour, fermented cacao beans, mamey pits and flor de cacao (also known as rosita de cacao). These are finely ground into a paste. The paste is mixed with water, usually by hand, and when it is ready, the flor de cacao rises to the top to form a pasty foam. It can be served as-is or with some sugar syrup to sweeten it. The drink is served cold.
+	3.2.1	cocoa solid.  Pressed from cocoa beans.
+	3.2.2	cocoa butter.  Pressed from cocoa beans.
