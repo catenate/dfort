@@ -1,0 +1,103 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb wagon pile storeroom shelter burrow
+
+%%%%%%%%%%%%%	
+%Xpz=======X%	
+%ppfs======p%	
+%ppfp======d%	
+%=pfd=======%	
+%=pf========%	
+%=pf========%	
+%=pfu=======%	
+%=pa========%	
+%=p+========%	
+%=ph========%	
+%Xpl=======X%	
+%%%%%%%%%%%%%	
+
+	pfs: Seeds
+	pfp: edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine)
+	pfd: Drinks (plant and animal)
+	pf: Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (plant dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks, royal jelly, honey)
+	pf: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks, royal jelly, honey)
+	pfu: only prepared meals
+	pa: Animals, empty cages, empty animal traps
+	pb: Bars: Other Materials (ash, soap), Food: Misc. Liquid (lye), Furniture (buckets; no artifact, no ringwoodite or adamantine), Finished Goods (chains, flasks, splints, crutches; no artifact, no ringwoodite or adamantine)
+	ph: Cloth and thread (except adamantine)
+	pz: Ammo (no artifact, no adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no ringwoodite or adamantine), usable Trap Components (no artifact, no ringwoodite or adamantine)
+	pp: usable dwarven Weapons (metal battle axes, war hammers, short swords, spears, maces, crossbows, picks; wood training axes, training swords, training spears; obsidian short swords; no artifact, no ringwoodite or adamantine), Furniture (weapon racks; no artifact, no [raw] adamantine)
+	pd: usable Armor (breastplates, mail shirts, helms, caps, high boots, low boots, gauntlets, leggings, greaves, shields, bucklers; no artifact, no ringwoodite or adamantine), Furniture (armor stands; no artifact, no [raw] adamantine)
+	pl: Leather, Refuse (tanned hides), Finished Goods (leather and metal quivers, flasks, backpacks; no artifacts)
+
+
+
+
+nb outside surface farm
+
+Whip vine seeds; whip vine plants; whip wine, whip vine flour.
+Hide root seeds; hide root plants; redroot dye.
+Fisher berry seeds; fisher berry plants; fisher berry wine.
+Longland grass seeds; longland grass plants; longland flour, longland beer.
+Rat weed seeds; rat weed plants; sewer brew.
+Wild strawberry seeds; wild strawberry plants; strawberry wine.
+Prickle berry seeds; prickle berry plants; prickle berry wine.
+Blade weed seeds; blade weed plants; emerald dye.
+
+
+nb inside underground farm
+
+≈≈≈	plot
+≈≈≈
+sp=	seeds, plant, product
+
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+%X≈≈≈≈≈≈sp=X%	dimple, wheat, wheat, dimple → dye, beer, flour
+%=bwz   ≈≈≈≈%	kitchen
+%p    θ ≈≈≈≈%	planter/grower
+%s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+%≈         ≈%	cook
+%≈ θ bww θ ≈%	farmer’s workshop
+%≈         ≈%	brewer
+%≈≈≈≈      s%	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+%≈≈≈≈ θ    p%	thresher
+%≈sp=   bwl=%	still
+%Xooooo╧╧╧╧X%	quern, press
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+
+Don’t cook seeds, brewable plants, alcohol, or tallow.
+
+
+nb stone chamber
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stone crafts
+%pbwr      p%	stonecraft workshop
+%e    θ    f%	mechanic
+%c      bwtm%	mechanic’s workshop
+%=   ===   s%	stone crafter
+%= θ pus θ =%	stone furniture pile
+%=   ===   =%	mason
+%=bwj      =%	jeweler’s workshop
+%=    θ    =%	jeweler
+%=      bwm=%	mason’s workshop
+%Xpus======X%	stone furniture pile
+%%%%%%%%%%%%%	stone mechanisms
+
+
+nb metal chamber
+
+%%%%%%%%%%%%%	metal crafts
+%Xpbc======X%	charcoal pile
+%pbwr      p%	metalcraft workshop
+%g    θ    p%	furnace operator
+%m      besm%	smelter
+%=   ===   =%	metal crafter
+%= θ pum θ =%	metal furniture pile
+%=   ===   =%	weaponsmith
+%=bwf      =%	armor forge
+%=p   θ d  =%	armorer
+%=      bwf=%	weapon forge
+%Xpdm======X%	metal armor
+%%%%%%%%%%%%%	metal weapons

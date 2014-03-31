@@ -59,7 +59,7 @@ nb outside farm admofal
 
 Hide root seeds; hide root plants; redroot dye.
 Rat weed seeds; rat weed plants; sewer brew.
-Wild strawberry seeds; wild strawberry plants; sewer brew.
+Wild strawberry seeds; wild strawberry plants; strawberry wine.
 Blade weed seeds; blade weed plants; emerald dye.
 Longland grass seeds; longland grass plants; longland flour, longland beer.
 Prickle berry seeds; prickle berry plants; prickle berry wine.
@@ -148,7 +148,7 @@ Edit s,║,◘,g
 %%%%%%%%%%%%%	Plant Extracts (rock nut oil)
 
 
-nb stone burrow
+nb stone chamber
 
 %%%%%%%%%%%%%	cut gems
 %Xpgs======X%	stone crafts

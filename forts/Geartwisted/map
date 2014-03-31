@@ -1,7 +1,7 @@
 	143+	Open space.
 	142	Trees, shrubs, grass.  Colonies of honey bees.  Colony of bumblebees.  Peat wall.
 	141	(Trade burrow: UNWALLED outside 3-wide paved road to ramps.)  OPEN (trapped) linked bridge from outside to walled and unroofed outside farm, farm workshops, outside workshops, deprecated trade depot, and wagon.  UNWALLED outside poultry pasture with nest boxes, midsize pasture, large pasture.  UNWALLED outside large refuse pile.  UNWALLED outside fishery.  Brook and waterfall.  Trees,  shrubs, grasses and bamboo.  Peat walls.  Sandy clay walls.  Murky pools of stagnant water.  Colonies of termites.  Colony of ants.
-	140	(Trade burrow: OPEN (trapped) (linked) (bridge) to ramps.)  OPEN (trapped) linked bridge from walled farm to inside farm.  OPEN (trapped) linked bridge from walled farm to restart burrow: wagon piles.  Peat walls.  Clay loam walls.  Red sand walls.  Red sand.  Trees, shrubs, grass.  Murky pools of stagnant water.  Waterfall.  Brook channel, drawbridge, grate.  Spillway to large cistern.
+	140	(Trade burrow: OPEN (trapped) (linked) (bridge) to ramps.)  OPEN (trapped) linked bridge from walled farm to inside farm.  OPEN (trapped) linked bridge from walled farm to restart burrow: wagon piles.  Peat walls.  Clay loam walls.  Red sand walls.  Red sand.  Trees, shrubs, grass.  Murky pools of stagnant water.  Waterfall.  Brook channel, drawbridge, grate.  (Linked) (bridge) from brook to (grate) to spillway to large cistern.
 	139	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  (Proper dining room and meeting hall, with fortified or grated waterfall wall, and well to waterfall large cistern.)  (Inside farm.)  Spillway to large cistern.  Red sand designated for collection.  Trees, shrubs, grass.  Red sand walls.  Sandy clay walls.  Clay loam walls.  Lignite veins.  Waterfall.
 	138	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  OPEN (trapped) linked bridge from walled farm to shelter burrow: Beds and tables.  OPEN (trapped) linked bridge from walled farm to upper deepstair.  OPEN (trapped) linked bridge from upper deepstair.  Trees, shrubs, grass.  Waterfall and brook.  Red sand walls.  Pipe opal clusters.  Spillway to large brook cistern.  White opal floor.  Yellow jasper floor.
 	137	(Trade burrow: (Trapped) 3-wide (trade-burrow tunnel) to (ramps).)  Shelter burrow: Hospital.  (Linked bridge backflow to 2x2-stair spillway to waterfall large cistern.)  Spillway to large brook cistern.  White opal floor.
@@ -9,10 +9,10 @@
 	135	Spillway to brook large cistern.
 	134	Spillway to brook large cistern.  Yellow jasper floor.
 	133	Spillway to brook large cistern.  Yellow jasper floor.
-	132	Native silver vein.  (Walled) spillway to brook large cistern.
+	132	Native silver vein.  Walled spillway to brook large cistern.
 	131	Spillway to brook large cistern.
-	130	OPEN (trapped) (linked) bridge to native silver vein.  (Walled) spillway to brook large cistern.
-	129	Native silver vein.  (Walled) spillway to brook large cistern.
+	130	OPEN (trapped) (linked) bridge to native silver vein.  Walled spillway to brook large cistern.
+	129	Native silver vein.  Spillway to brook large cistern.
 	128	Brook large cistern: spillway, (grate), linked cistern bridge, linked well bridge.
 	127	Prase opal floor.
 	125	Prase opal cluster.

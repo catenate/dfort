@@ -10,7 +10,7 @@ forts/Geartwisted/layout
 forts/Geartwisted/map
 git
 git add .
-git commit -a -m '50 dwarves barely beat 15 military goblins.  Train military!'
+git commit -a -m 'First mini-fort needs to be compact and quick.'
 git diff
 git fetch
 git push origin master
