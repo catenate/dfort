@@ -1,0 +1,46 @@
+Font /fonts/10646/9x15/9x15.font
+
+nb shelter plan
+
+Fishery by stream for expedition leader.  Each other dwarf needs to
+use full complement of skills in areas of expertise.  Metalsmith needs
+to burn wood.
+
+Pastures for poultry with nest boxes; midsize animals with a farmer’s
+workshop; and double-size for ridable grazers of burden.
+
+First, dig rings for each level to get at stone quickly.
+
+Initial shelter: (0) Walled outside workshops: carpenter, trade depot,
+wood burner; butcher, tanner, leatherworker, animal training zone.
+(1) Inside farm with still, kitchen, farmer’s workshop, and querns,
+screw presses, and record keeper’s chair.  (2) Wagon-pile storeroom.
+(3) Stone chamber.  (4) Metal chamber.  (5) Dining room, meeting hall.
+(6) 7 bedrooms, 3x3 dorm, mini-hospital.  (7) Cistern.
+
+Then each expansion gets its own burrow or chamber, all spread out.
+
+Wall outside farm.
+
+Trade burrow: Surface 3x1 ramps to 3x3 for drawbridge to 3x3 for traps
+to 3x3 for drawbridge to trade depot and barracks.
+
+Chief medical dwarf does all healthcare tasks, and hauls items,
+corpses for burial, food, and refuse.
+
+
+nb trade depot barracks butcher tanner leatherworker carpenter wood burner
+
+ ╔═══════════╗	
+ ║<bwu,,,,,,>║	butchering
+ ║,,,,bwn,,,ó║	tanning
+ ║,,,,,,,bwe,║	leatherworking
+ ║^O,,,O,,,,,║	trade depot
+bd^,,,,,,,,,,║	
+bd^,,O,,,,♫,,║	barracks
+bd^,,,,,,,,,,║	
+ ║^O,,,O,,,,,║	
+ ║,bwc,,,,,,,║	carpentry
+ ║,,,bew,,,,,║	wood burning
+ ║<,,,,,,iat>║	animal training
+ ╚═══════════╝	
