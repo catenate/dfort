@@ -14,9 +14,9 @@ First, dig rings for each level to get at stone quickly.
 Initial shelter: (0) Walled outside workshops: carpenter, trade depot,
 wood burner; butcher, tanner, leatherworker, animal training zone.
 (1) Inside farm with still, kitchen, farmer’s workshop, and querns,
-screw presses, and record keeper’s chair.  (2) Wagon-pile storeroom.
-(3) Stone chamber.  (4) Metal chamber.  (5) Dining room, meeting hall.
-(6) 7 bedrooms, 3x3 dorm, mini-hospital.  (7) Cistern.
+screw presses, and record keeper’s chair.  (2) Stone chamber.
+(3) Metal chamber.  (4) Dining room, meeting hall.  (5) Wagon-pile
+storeroom.  (6) 7 bedrooms, 3x3 dorm, mini-hospital.  (7) Cistern.
 
 Then each expansion gets its own burrow or chamber, all spread out.
 
@@ -31,16 +31,188 @@ corpses for burial, food, and refuse.
 
 nb trade depot barracks butcher tanner leatherworker carpenter wood burner
 
+Can’t have traps in front of trade depot.
+
  ╔═══════════╗	
  ║<bwu,,,,,,>║	butchering
  ║,,,,bwn,,,ó║	tanning
  ║,,,,,,,bwe,║	leatherworking
- ║^O,,,O,,,,,║	trade depot
-bd^,,,,,,,,,,║	
-bd^,,O,,,,♫,,║	barracks
-bd^,,,,,,,,,,║	
- ║^O,,,O,,,,,║	
+ ║,O,,,O,,,,,║	trade depot
+bd,,,,,,,,,,,║	
+bd,,,O,,,,♫,,║	barracks
+bd,,,,,,,,,,,║	
+ ║,O,,,O,,,,,║	
  ║,bwc,,,,,,,║	carpentry
  ║,,,bew,,,,,║	wood burning
  ║<,,,,,,iat>║	animal training
  ╚═══════════╝	
+
+
+nb inside underground farm
+
+≈≈≈	plot
+≈≈≈
+sp=	seeds, plant, product
+
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+%X≈≈≈≈≈≈sp=X%	dimple, wheat, wheat, dimple → dye, beer, flour
+%=bwz   ≈≈≈≈%	kitchen
+%p    θ ≈≈≈≈%	planter/grower
+%s      sp=≈%	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+%≈         ≈%	cook
+%≈ θ bww θ ≈%	farmer’s workshop
+%≈         ≈%	brewer
+%≈≈≈≈      s%	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+%≈≈≈≈ θ    p%	thresher
+%≈sp=   bwl=%	still
+%Xoooo╥╧╧╧╧X%	quern, press, bookkeeper/manager’s chair
+%%%%%%%%%%%%%	plump, pig, pig, plump → wine, ale, thread
+
+Don’t cook seeds, brewable plants, alcohol, or tallow.
+
+
+nb storeroom layout seeds plant drink food animal cage trap bar cloth thread ammo weapon armor leather ekastmafol
+
+These storerooms of sorted wagon and import goods allows a fortress to
+be built or reclaimed.
+
+%%%%%%%%%%%%%	
+%Xpz=======X%	
+%ppfs======p%	
+%ppfp======d%	
+%=pfd=======%	
+%=pf========%	
+%=pf========%	
+%=pfu=======%	
+%=pa========%	
+%=p+========%	
+%=ph========%	
+%Xpl=======X%	
+%%%%%%%%%%%%%	
+
+	pfs: Seeds
+	pfp: edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine)
+	pfd: Drinks (plant and animal)
+	pf: Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks, royal jelly, honey)
+	pf: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks, royal jelly, honey)
+	pfu: only prepared meals
+	pa: Animals, empty cages, empty animal traps
+	pb: Bars: Other Materials (ash, soap), Food: Misc. Liquid (lye), Furniture (buckets; no sand bags, no artifact, no ringwoodite or adamantine), Finished Goods (chains, flasks, splints, crutches; no artifact, no ringwoodite or adamantine)
+	ph: Cloth and thread (except adamantine)
+	pz: Ammo (no artifact, no adamantine), Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no ringwoodite or adamantine), usable Trap Components (no artifact, no ringwoodite or adamantine)
+	pp: usable Weapons (battle axes, war hammers, short swords, spears, maces, crossbows, picks; training axes, training swords, training spears; no artifact, no ringwoodite or adamantine)
+	pd: usable Armor (breastplates, mail shirts, armor, helms, caps, high boots, low boots, gauntlets, leggings, greaves, shields, bucklers; no artifact, no ringwoodite or adamantine)
+	pl: Leather, Refuse (tanned hides), Finished Goods (leather and metal quivers, flasks, backpacks; no artifacts)
+
+
+nb stone chamber
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stone crafts
+%pbwr      p%	stonecraft workshop
+%e    θ    f%	mechanic
+%c      bwtm%	mechanic’s workshop
+%=   ===   s%	stone crafter
+%= θ pus θ =%	stone furniture pile (no sand bags)
+%=   ===   =%	mason
+%=bwj      =%	jeweler’s workshop
+%=    θ    =%	jeweler
+%=      bwm=%	mason’s workshop
+%Xpus======X%	stone furniture pile (no sand bags)
+%%%%%%%%%%%%%	stone mechanisms
+
+
+nb metal burrow bar stockpile
+
+%%%%%%%%%%%%%	metal crafts
+%Xpbc======X%	charcoal pile
+%pbes      p%	smelter
+%g    θ    p%	furnace operator
+%m      besm%	smelter
+%=   ===   =%	furnace operator
+%= θ pbm θ =%	metal furniture pile (no sand bags)
+%=   ===   =%	weaponsmith
+%=bwf      =%	armor forge
+%=p   θ d  =%	armorer
+%=      bwf=%	weapon forge
+%Xpdm======X%	usable metal armor
+%%%%%%%%%%%%%	usable metal dwarven weapons/trap components
+
+	Restricted marble for use as flux.  Should devote copper to
+(bismuth if we had it) bronze.  Ordered smelter to produce steel,
+pig iron, iron; bonze from ores and bars, brass; electrum from ores;
+silver and lead from galena.  Forge silver war hammer, mace;
+{bronze crossbow, bolts, spear, battle axe, mail shirt, helm, and pick};
+[lead chain, sarcophagus]; steel weapons to order, picks, and full armor
+(mail shirt, helm, high boots, gauntlets, greaves, shield).
+
+
+nb dining room meeting hall
+
+◘◘◘◘◘◘◘◘◘◘◘◘◘
+◘X╥╥╥╥╥╥╥╥╥X◘	
+◘+╤╤╤╤╤╤╤╤╤+◘	
+◘+╤╤╤╤╤╤╤╤╤+◘	
+◘+╥╥╥╥╥╥╥╥╥+◘	
+◘+╥╥╥╥╥╥╥╥╥+◘	
+◘+╤╤╤╤╤╤╤╤╤+◘	dining room and meeting hall
+◘+╤╤╤╤╤╤╤╤╤+◘	
+◘+╥╥╥╥╥╥╥╥╥+◘	
+◘+╥╥╥╥╥╥╥╥╥+◘	
+◘+╤╤╤╤╤╤╤╤╤+◘	
+◘X+++++++++X◘	
+◘◘◘◘◘◘◘◘◘◘◘◘◘
+
+Set up pastures so animals don’t hang out here.
+
+
+nb hospital soap industry
+containers for gypsum powder in bedrooms
+dedicated well(s) in the walls
+surgeon, suturer, diagnostician, bone doctor, wound dresser
+
+╔═══════════╗	Food (prepared meals only)
+║Xph=======X║	Cloth (cloth and thread; except adamantine)
+║p+++θRθ+++p║	bedroom (5²)
+║f+θ+θτθ+θ+u║	surgery table (4)
+║u+++θRθ+++g║	
+║=θθθ+++θθθ=║	hospital bed (24)
+║=RτR+θ+RτR=║	traction bed (8)
+║=θθθ+++θθθ=║	
+║=+++θRθ+++=║	smoothed floor and walls
+║=+θ+θτθ+θ+=║	
+║=+++θRθ+++=║	
+║Xpbs======X║	Bars: Other Materials (soap)
+╚═══════════╝	Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+
+
+%%%%%%%%%%%%%	Fat (tallow)
+%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
+%ppb=   bwyp%	Bars: Other Materials (ash)
+%f=== θ    f%	Lye maker
+%t===      x%	Ashery
+%=   pfl   =%	Soap maker
+%= θ === θ =%	Food: Misc. Liquid (lye)
+%=   ===   =%	Lye maker
+%=bwS   pbS=%	Soap maker’s workshop
+%=    θ ====%	Soap maker
+%=      ====%	Bars: Other Materials (soap)
+%XpbS======X%	Bars: Other Materials (soap)
+%%%%%%%%%%%%%	Plant Extracts (rock nut oil)
+
+
+nb bedroom dormitory mini hospital
+
+╔═══════════╗	
+║X+++++++++X║	
+║+++++++++++║	
+║++θ++θ++θ++║	
+║+++++++++++║	
+║+++++++++++║	
+║++θ++θ++θ++║	
+║+++++++++++║	
+║++++θθθÆR╤+║	
+║++θ+θθθθθθ+║	dormitory	
+║++++θθθθθθ+║	mini-hospital
+║X+++++++++X║	
+╚═══════════╝	

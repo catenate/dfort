@@ -1,8 +1,10 @@
 layout:4: storeroom layout seeds plant drink food animal cage trap bar cloth thread ammo weapon armor leather ekastmafol
-layout:37: outside inside crop wiki
-layout:41: outside farm admofal
-layout:70: inside underground farm
-layout:93: social prepared food dormitory hospital dining room
-layout:114: hospital soap industry
-layout:150: stone burrow
-layout:167: magma burrow furnace forge workshop pile bedroom layout
+layout:38: outside inside crop wiki
+layout:42: outside farm admofal
+layout:71: inside underground farm
+layout:94: social prepared food dormitory hospital dining room
+layout:115: hospital soap industry
+layout:151: stone chamber
+layout:168: magma burrow furnace forge workshop pile bedroom layout
+layout:213: burrow tour
+layout:227: trade export

@@ -1,0 +1,35 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb bedroom chair pile coffer cabinet statue cage animal table
+
+╥	chair: 1x1 study assigned to bed owner
+╤	table: 1x1 dining room assigned to bed owner
+=	pile preferred items
+÷	pile preferred drink
+θ	bed
+%	pile prepared meals and preferred food
+Π	cabinet
+Æ	coffer
+Ω	preferred statue or animal in cage
+
+╥╤=
+÷θ%
+ΠÆΩ
+
+
+nb bed burrow
+
+╔═══════════╗	pile drink
+║Xpfu======X║	pile prepared meals
+║p+++++++++p║	
+║f+θ++θ++θ+f║	
+║d+++++++++d║	
+║=+++++++++=║	
+║=+θ++θ++θ+=║	
+║=+++++++++=║	
+║=+++++++++=║	
+║=+θ++θ++θ+=║	
+║=+++++++++=║	
+║Xpfu======X║	pile prepared meals
+╚═══════════╝	pile drink

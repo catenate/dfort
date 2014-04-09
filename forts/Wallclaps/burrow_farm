@@ -1,0 +1,45 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb inside underground soil farm plot burrow kitchen workshop still quern screw press
+
+#############	inside seeds
+#X=========X#	inside plants
+#=≈≈≈≈≈≈≈≈≈=#	dimple, wheat, wheat, dimple → dye, beer, flour
+#=≈≈≈≈≈≈≈≈≈=#	dimple, wheat, wheat, dimple → dye, beer, flour
+#=≈≈≈≈≈≈≈≈≈=#	plump, pig, pig, plump → wine, ale, thread
+#=bwz      =#	kitchen
+#=   bww   =#	farmer’s workshop
+#=      bwl=#	still
+#=≈≈≈≈≈≈≈≈≈=#	sweet, sweet, plump, plump → rum, sugar, syrup, wine
+#=≈≈≈≈≈≈≈≈≈=#	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+#=≈≈≈≈≈≈≈≈≈=#	rock nut → quarry x 3, dimple → leaves, dye, paste, oil
+#Xooooo╧╧╧╧X#	quern, press
+#############	inside plant products
+
+Don’t cook seeds, brewable plants, alcohol, or tallow.
+
+
+nb farm burrow storeroom food drink prepared meal
+
+%%%%%%%%%%%%%	
+%Xpfs======X%	
+%ppfs======p%	
+%fpfp======f%	
+%upfp======u%	
+%=pfd=======%	
+%=pfd=======%	
+%=pfi=======%	
+%=pfi=======%	
+%=pfe=======%	
+%=pfe=======%	
+%Xpa=======X%	
+%%%%%%%%%%%%%	
+
+	pfs: Seeds
+	pfp: edible Plants (plump helmet, pig tail, cave wheat, sweet pod, muck root, bloated tuber, prickle berry, wild strawberry, longland grass, rat weed, fisher berry, rope reed, sliver barb, sun berry, whip vine)
+	pfd: Drinks (plant and animal)
+	pfi: Unprepared Fish, Egg, inedible Plants (quarry bush, kobold bulb, valley herb, dimple cup, blade weed, hide root), Milled Plant (dyes), Paste, Pressed Material, Plant Extracts (rock nut oil, gnomeblight, golden salve), Animal Extracts (no milks, royal jelly, honey)
+	pfe: Meat, Fish, Cheese, Leaves, Milled Plants (no dyes), Fat, Plant Extracts (dwarven syrup), Animal Extracts (milks, royal jelly, honey)
+	pfu: only prepared meals
+	pa: Animals, empty cages, empty animal traps

@@ -1,0 +1,64 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb magma burrow metal glass ceramic product pile
+
+%%%%%%%%%%%%%	pile ceramic goods
+%Xpbc======X%	pile clay blocks
+%=pgm======p%	pile metal crafts
+%=pgm======g%	pile metal goods
+%=pum======c%	pile metal furniture
+%=pdm=======%	pile usable metal armor
+%=ppm=======%	pile usable metal dwarven weapons and trap parts
+%ppbg=======%	pile rough/cut glass and glass blocks
+%gpgg=======%	pile glass goods
+%cpug=======%	pile glass furniture
+%=ppg=======%	pile usable glass weapons and trap parts
+%Xpgc======X%	pile ceramic goods
+%%%%%%%%%%%%%	pile ceramic goods
+
+
+nb magma burrow metal bar pile
+
+%%%%%%%%%%%%%	pile clay stone
+%Xpus======X%	pile sand bags
+%ppbm======p%	metal bars: iron
+%spbm======s%	metal bars: pig iron
+%cpbm======c%	metal bars: steel
+%=pbm=======%	metal bars: silver
+%=pbm=======%	metal bars: platinum
+%=pbm=======%	metal bars: lead
+%=pbm=======%	metal bars: bronze
+%=pbm=======%	metal bars: brass
+%=pbm=======%	metal bars: electrum
+%Xpus======X%	pile sand bags
+%%%%%%%%%%%%%	pile clay stone
+
+
+nb magma burrow furnace forge workshop
+
+%%%%%%%%%%%%%	pile clay stone
+%Xpus======X%	pile sand bags
+%pb_n _  _ p%	magma kiln
+%s   bea   s%	magma glass furnace
+%c      beam%	magma kiln or glass furnace
+%=b_l _  _ =%	magma smelter: iron, pig iron, steel
+%=   bel   =%	magma smelter: bronze, brass, electrum
+%=      bel=%	magma smelter: silver, lead, platinum
+%=bwv      =%	magma forge: edged weapons¹
+%=_  _wv_  =%	magma forge: armor²
+%=      bwv=%	magma forge: blunt weapons, coffin, crafts³
+%Xpbm======X%	pile metal bars
+%%%%%%%%%%%%%	pile metal bars
+
+ ¹ crossbow, spear, sword, axe, pick
+ ² mail, greaves, helm, gauntlet, high boot, shield
+ ³ silver/platinum mace/hammer; lead sarcophagus; brass crafts
+
+Restricted marble for use as flux.  Should devote copper (ore) to
+(bismuth if we had it) bronze.  Ordered smelter to produce steel,
+pig iron, iron; bonze from ores and bars, brass; electrum from ores;
+silver and lead from galena.  Forge silver, platinum war hammer, mace;
+{bronze crossbow, bolts, spear, battle axe, mail shirt, helm, and pick};
+[lead chain, sarcophagus]; steel weapons to order, picks, and full armor
+(mail shirt, helm, high boots, gauntlets, greaves, shield).

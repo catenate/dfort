@@ -1,0 +1,65 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb trade depot burrow trap corridor wagon barracks
+
+%%%%%%%%%%%%%%%%%%…%%	
+%                 … db
+%                 … db
+%                 … db
+%   %%%%%%%%%%%%%%…%%	
+%   %XpE======= %	
+%   % pH======= %	
+%   % pD======= %	
+%   %O   O     ^%%…%%
+%   %          ^^^…^db
+%   %  O    θ  ^^^…^db
+%   %          ^^^…^db
+%   %O   O     ^%%…%%
+%   %           %	
+%   %           %	
+%   %X          %	
+%   %%%%%%%%%ddd%	
+%            bbb%	
+%               %	
+%               %	
+%%%%%%%%%%%%%%%%%	
+
+
+nb trade craft burrow workshop
+
+    %%%%%%%%%%%%%	wood furniture (no sand bags)
+    %Xpgc======>%	crafts
+    %pbwr      p%	stone crafter
+    %u   bwr   r%	wood crafter
+    %w      bwr=%	bone+ crafter
+    %=bwc      ó%	carpenter
+    %=   bew   ó%	wood burner
+    %=      iató%	train animal
+    %=bwu      p%	butcher
+    %=   bwn   g%	tanner
+    %=      bwe=%	leatherworker
+    %Xpr=======>%	refuse: skulls bones shells teeth and horns/hooves
+    %%%%%%%%%%%%%	Leather, Refuse (tanned hides); Finished Goods (leather and metal quivers, flasks, backpacks; no artifacts)
+
+
+nb barracks
+
+    %%%%%%%%%%%%%	weapons
+    %Xpz=======X%	ammo
+    %p         p%	
+    %p         d%	
+    %=         =%	
+    %=   ÷θ=   =%	
+    %=   θθθ   =%	beds, 2 drink, 2 prepared meals
+    %=   ÷θ=   =%	
+    %=         =%	
+    %=         =%	
+    %=         =%	
+    %Xpup======X%	trap components, siege ammo
+    %%%%%%%%%%%%%	armor
+
+	pz: Ammo (no artifact, no adamantine)
+	pp: usable Weapons (battle axes, war hammers, short swords, spears, maces, crossbows, picks; training axes, training swords, training spears; no artifact, no ringwoodite or adamantine)
+	pd: usable Armor (breastplates, mail shirts, armor, helms, caps, high boots, low boots, gauntlets, leggings, greaves, shields, bucklers; no artifact, no ringwoodite or adamantine)
+	pup: Siege Ammo (catapult parts, ballista parts, anvils, siege ammo, ballista arrow heads; no artifact, no ringwoodite or adamantine), usable Trap Components (no artifact, no ringwoodite or adamantine)

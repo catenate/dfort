@@ -1,0 +1,39 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb stone chamber
+
+%%%%%%%%%%%%%	cut gems
+%Xpgs======X%	stonecrafts
+%pbwr      p%	stonecraft workshop
+%e   bwr   u%	stonecraft workshop
+%c      bwtm%	mechanic’s workshop
+%=bwj===   s%	jeweler’s workshop: encrust
+%=   pus   =%	stone furniture pile (no sand bags)
+%=   ===bwt=%	mechanic’s workshop
+%=bwj      =%	jeweler’s workshop: cut
+%=   bwm   =%	mason’s workshop
+%=      bwm=%	mason’s workshop
+%Xpus======X%	stone furniture pile (no sand bags)
+%%%%%%%%%%%%%	stone mechanisms
+
+
+nb metal burrow bar stockpile
+
+%%%%%%%%%%%%%	usable metal dwarven weapons/trap components
+%Xpbc======X%	charcoal pile
+%pbes      p%	smelter: iron, pig iron, steel
+%p   bes   u%	smelter: bronze, brass, electrum
+%m      besg%	smelter: silver, lead, platinum
+%=pbm======m%	metal bars: iron, pig iron, steel
+%====pbm====%	metal bars: bronze, brass, electrum
+%=======pbm=%	metal bars: silver, lead, platinum
+%=bwf      =%	forge: edged weapons¹
+%=   bwf   =%	forge: armor²
+%=      bwf=%	forge: blunt weapons, coffin, crafts³
+%Xpdm======X%	usable metal armor
+%%%%%%%%%%%%%	metal coffin, crafts
+
+ ¹ copper, (bismuth) bronze, iron; crossbow, spear, sword, axe, pick
+ ² mail, greaves, helm, gauntlet, high boot, shield
+ ³ silver, platinum; mace, hammer

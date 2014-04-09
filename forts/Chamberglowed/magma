@@ -1,0 +1,50 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb magma burrow furnace forge workshop pile bedroom layout
+
+%%%%%%%%%%%%%	pile clay stone
+%Xpbs======X%	pile sand bags
+%pb_n _  _ p%	magma kiln
+%b   bea   b%	magma glass furnace
+%c      beam%	magma glass furnace
+%=b_l _  _ =%	magma smelter
+%=   bel   =%	magma smelter
+%=      bel=%	magma smelter
+%=bwv      =%	magma forge¹
+%=_  _wv_  =%	magma forge²
+%=      bwv=%	magma forge³
+%Xpbm======X%	pile metal bars
+%%%%%%%%%%%%%	pile metal bars
+
+ ¹ copper, (bismuth) bronze, iron; crossbow, spear, sword, axe, pick
+ ² mail, greaves, helm, gauntlet, high boot, shield
+ ³ silver, platinum; mace, hammer
+
+%%%%%%%%%%%%%	pile ceramic goods
+%Xpbc======X%	pile clay blocks
+%=pgm======p%	pile metal crafts
+%=pgm======g%	pile metal goods
+%=pum======c%	pile metal furniture
+%=pdm=======%	pile usable metal armor
+%=ppm=======%	pile usable metal dwarven weapons and trap parts
+%ppbg=======%	pile rough/cut glass and glass blocks
+%gpgg=======%	pile glass goods
+%cpug=======%	pile glass furniture
+%=ppg=======%	pile usable glass weapons and trap parts
+%Xpgc======X%	pile ceramic goods
+%%%%%%%%%%%%%	pile ceramic goods
+
+%%%%%%%%%%%%%	pile drink
+%Xpfm======X%	pile prepared meals
+%p         p%	furnace operator
+%f θ  θ  θ f%	furnace operator
+%d         d%	glassmaker
+%=         =%	weaponsmith
+%= θ  θ  θ =%	armorsmith
+%=         =%	metalsmith
+%=         =%	metalcrafter
+%= θ  θ  θ =%	trapper
+%=         =%	mechanic
+%Xpfm======X%	pile prepared meals
+%%%%%%%%%%%%%	pile drink

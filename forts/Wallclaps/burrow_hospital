@@ -1,0 +1,66 @@
+Font /fonts/10646/9x15/9x15.font
+
+
+nb hospital burrow lye soap workshop
+
+%%%%%%%%%%%%%	Fat (tallow)
+%Xpu=======X%	Furniture (buckets; no artifact, no [raw] adamantine)
+%ppb=   bwyp%	Bars: Other Materials (ash)
+%f=== θ    f%	Lye maker
+%t===      x%	Ashery
+%=   pfl   =%	Soap maker
+%= θ === θ =%	Food: Misc. Liquid (lye)
+%=   ===   =%	Lye maker
+%=bwS   pbS=%	Soap maker’s workshop
+%=    θ ====%	Soap maker
+%=      ====%	Bars: Other Materials (soap)
+%XpbS======X%	Bars: Other Materials (soap)
+%%%%%%%%%%%%%	Plant Extracts (rock nut oil)
+
+
+nb hospital burrow
+containers for gypsum powder in bedrooms
+dedicated well(s) in the walls
+surgeon, suturer, diagnostician, bone doctor, wound dresser
+
+╔═══════════╗	Food (prepared meals only)
+║Xph=======X║	Cloth (cloth and thread; except adamantine)
+║p+++θRθ+++p║	bedroom (5²)
+║f+Æ+θ╤θ+Æ+u║	surgery table (4)
+║u+++θRθ+++g║	
+║=θθθ+++θθθ=║	hospital bed (24)
+║=R╤R+Æ+R╤R=║	traction bed (8)
+║=θθθ+++θθθ=║	
+║=+++θRθ+++=║	smoothed floor and walls
+║=+Æ+θ╤θ+Æ+=║	
+║=+++θRθ+++=║	
+║XpbS======X║	Bars: Other Materials (soap)
+╚═══════════╝	Furniture (buckets; no artifact, no [raw] adamantine), Finished Goods (chains, splints, crutches; no artifact, no [raw] adamantine)
+
+
+nb hospital burrow well 11x11 cistern river drawbridge plan
+
+Water levers close drawbridge between cistern and well,
+and open drawbridge between cistern and river.
+
+ +bottom of secondary well
+ |
+ |+lever next to well
+ ||
+ || +cistern
+ || |
+ ↓↓ ↓
+%%%%%%%%%%%
+% db    %X%	stairs to river: one is not enough to take 1-wide tunnel flow
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %X%	
+% %     %#%	grate
+% %     db%	second lever from well, a good flood-distance away
+%%%%%%%%%%%
+ ↑
+ |
+ +bottom of primary well
