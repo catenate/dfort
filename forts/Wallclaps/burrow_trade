@@ -8,17 +8,17 @@ nb trade depot burrow trap corridor wagon barracks
 %                 … db
 %                 … db
 %   %%%%%%%%%%%%%%…%%	
-%   %XpE======= %	
-%   % pH======= %	
-%   % pD======= %	
-%   %O   O     ^%%…%%
-%   %          ^^^…^db
-%   %  O    θ  ^^^…^db
-%   %          ^^^…^db
-%   %O   O     ^%%…%%
-%   %           %	
-%   %           %	
 %   %X          %	
+%   %           %	
+%   %   θ       %	
+%   %          ^%%…%%
+%   %          ^^^…^db
+%   %          ^^^…^db
+%   % O   O    ^^^…^db
+%   %          ^%%…%%
+%   %   O       %	
+%   %           %	
+%   %XO   O     %	
 %   %%%%%%%%%ddd%	
 %            bbb%	
 %               %	
@@ -26,20 +26,39 @@ nb trade depot burrow trap corridor wagon barracks
 %%%%%%%%%%%%%%%%%	
 
 
+nb trade export pile
+
+    %%%%%%%%%%%%%	mugs
+    %Xpum======>%	mechanisms
+    %ppH======= %	Human exports
+    %gpH======= %	Human exports
+    %mpH======= %	Human exports
+    %=pE=======ó%	Elf exports (no wood, even decorations)
+    %=pE=======ó%	Elf exports (no wood, even decorations)
+    %=pE=======ó%	Elf exports (no wood, even decorations)
+    %=pD======= %	Dwarf exports
+    %=pD======= %	Dwarf exports
+    %=pD======= %	Dwarf exports
+    %Xpgc======>%	crafts of skulls bones shells teeth and horns/hooves
+    %%%%%%%%%%%%%	
+
+No masterwork or artifact, no ringwoodite or adamantine.
+
+
 nb trade craft burrow workshop
 
     %%%%%%%%%%%%%	wood furniture (no sand bags)
-    %Xpgc======>%	crafts
+    %Xpgc======X%	crafts
     %pbwr      p%	stone crafter
     %u   bwr   r%	wood crafter
-    %w      bwr=%	bone+ crafter
-    %=bwc      ó%	carpenter
-    %=   bew   ó%	wood burner
-    %=      iató%	train animal
-    %=bwu      p%	butcher
-    %=   bwn   g%	tanner
+    %w      bwrg%	bone+ crafter
+    %=bwc      =%	carpenter
+    %=   bew   =%	wood burner
+    %=      iat=%	train animal
+    %=bwu      =%	butcher
+    %=   bwn   =%	tanner
     %=      bwe=%	leatherworker
-    %Xpr=======>%	refuse: skulls bones shells teeth and horns/hooves
+    %Xpr=======X%	refuse: skulls bones shells teeth and horns/hooves
     %%%%%%%%%%%%%	Leather, Refuse (tanned hides); Finished Goods (leather and metal quivers, flasks, backpacks; no artifacts)
 
 

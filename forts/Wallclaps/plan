@@ -1,0 +1,36 @@
+nb burrow connect
+
+Arrange connections between burrows.
+
+Trade burrow connects to surface.
+
+Farm burrows connect to walled (surface|cavern).
+
+Social burrow connects to bed burrow, farm burrow, stone burrow,
+and trade burrow.
+
+Stone (early metal) burrow connects to walled veins around surface.
+Delves to find stone, metal, and a good place to dig magma burrow.
+Shares deepshaft veins with magma burrow.
+
+Bed burrow connects to hospital burrow.
+
+Magma burrow connects to veins around magma sea.  Avoids connecting
+to HFS.  Shares deepshaft veins with stone burrow.
+
+social burrow: dining room, meeting hall, statue garden, zoo
+	trade burrow: trade depot, trade piles, trade crafters, barracks
+		surface: caravan, enemies
+	inside farm burrow: walled inside farm, food piles, farm workshops
+		surface farm burrow: walled surface farm, food piles, farm workshops
+		cavern farm burrow: walled cavern farm, food piles, farm workshops
+	bed burrow: bedrooms
+		hospital burrow: hospital, lye/soap workshops
+		noble burrow
+		king’s burrow
+	stone burrow: stone workshops, charcoal-metal workshops
+		walled surface veins
+		deepshaft veins
+			magma burrow
+				magma sea veins
+					(HFS)

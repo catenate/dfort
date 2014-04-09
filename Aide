@@ -7,14 +7,15 @@ $ import -display :0.0 255-4.jpg
 Edit ,|sort|uniq
 forts/Earthenunited/layout
 forts/Geartwisted/layout
-forts/Geartwisted/map
+forts/Wallclaps/map
 git
 git add .
-git commit -a -m 'Develop Chamberglowed and start Wallclaps.'
+git commit -a -m 'Plan burrows around the social burrow, with minimal interconnections.'
 git diff
 git fetch
 git push origin master
 git rebase origin/master
+git log --oneline --decorate | sed -n '1,5p'
 ls -d forts/*/*
 mkdir nb
 nb burrow plan
