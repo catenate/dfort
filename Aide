@@ -10,7 +10,7 @@ forts/Geartwisted/layout
 forts/Wallclaps/map
 git
 git add .
-git commit -a -m 'Plan burrows around the social burrow, with minimal interconnections.'
+git commit -a -m 'Start Wallclaps.'
 git diff
 git fetch
 git push origin master
