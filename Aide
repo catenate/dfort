@@ -10,7 +10,7 @@ forts/Geartwisted/layout
 forts/Wallclaps/map
 git
 git add .
-git commit -a -m 'Start Wallclaps.'
+git commit -a -m 'Gather links to reviews of chocolate process.'
 git diff
 git fetch
 git push origin master
